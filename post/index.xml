@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.me/post/</link>
+    <description>Recent content in Posts on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Preflet: Get real-time predictive insights</title>
+      <link>https://www.bhavinjawade.me/post/preflet/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/preflet/</guid>
+      <description>This Portuguese based Data Science Startup is trying to make predictive analysis accessible to everyone using its next gen platform called Preflet.</description>
+    </item>
+    
+    <item>
+      <title>Linkedin opensources Avro2TF</title>
+      <link>https://www.bhavinjawade.me/post/avrotf/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/avrotf/</guid>
+      <description>Linkedin has always been a active contributor to the opensource community. April 4th, LinkedIn announced a new opensource project Avro2TF..</description>
+    </item>
+    
+    <item>
+      <title>Blockchain?/! The Start of a new revolution</title>
+      <link>https://www.bhavinjawade.me/post/blockchain/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/blockchain/</guid>
+      <description>Today every big company you can think of is investing in Blockchain. From Tech giants like Microsoft and IBM to..</description>
+    </item>
+    
+    <item>
+      <title>Training HaarCascade Model on Microsoft Azure.</title>
+      <link>https://www.bhavinjawade.me/post/haarcascade/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/haarcascade/</guid>
+      <description>Using Viola Jones algorithm to detect objects in realtime</description>
+    </item>
+    
+    <item>
+      <title>Book Review: The Monk Who Sold His Ferrai</title>
+      <link>https://www.bhavinjawade.me/post/book_monk_who_sold_his_ferrari/</link>
+      <pubDate>Sat, 29 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/book_monk_who_sold_his_ferrari/</guid>
+      <description>A book that will make you rethink about each and aspect of your life. The book is full of zen techniques to enrich your daily life and inspire you to live with discipline.</description>
+    </item>
+    
+    <item>
+      <title>Quantum Computing and Microsoft Q#</title>
+      <link>https://www.bhavinjawade.me/post/quantum/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/quantum/</guid>
+      <description>Using Viola Jones algorithm to detect objects in realtime</description>
+    </item>
+    
+  </channel>
+</rss>
