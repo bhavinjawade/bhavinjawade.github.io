@@ -481,7 +481,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -625,7 +625,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -719,6 +719,27 @@
 <p>Neither the encoder or decoder in this case is a CNN or RNN, both of them are composed of feed forward networks and multi-head attention blocks, which we will discuss further.</p>
 <p><img src="2021-05-07-12-37-22.png" alt="">
 <em>Transformer model architecture from attention is all you need paper</em></p>
+<h2 id="encoder">Encoder</h2>
+<p>The encoder in the paper consists of N layers each layer having 2 sublayers:</p>
+<ol>
+<li>Multi-Head attention</li>
+<li>Feed Forward network</li>
+</ol>
+<p>Each sublayers gets a residual input (Skip connection) from previous sublayer followed by a Layer Normalization. Layer normalization is different from batch normalization in the sense that input values for all neurons in the same layer are normalized for each data sample, unlike batch norm where input values of the same neuron for all the data in the mini-batch are normalized [J Lei Ba et.al].</p>
+<p>The encoder takes as in the positionally encoded input embedding. In the paper the authors used a sinusoidal function to define the positional encoding. In language modeling transformers like BERT, GPT-2 etc they typically use fully learnable matrix inplace of the sinusoidal function.</p>
+<p>$$PE_{(pos,2i+1)} = cos(pos/10000^{2i/dmodel})\<br>
+PE_{(pos,2i)} = sin(pos/10000^{2i/dmodel})$$</p>
+<h2 id="multi-head-attention">Multi-Head Attention</h2>
+<p>The positionally encoded input embedding goes as input to the multi-head attention block. The Attention mechanism maps the key-value and query to the output. Query determines which words (values) to focus on (attend to). Both Key and Value are the sequences of input length. All key, value and query in case of the encoder, comes from previous layer of the encoder. In case of the decoder&rsquo;s second multi-head attention sublayer query comes from the previous decoder layer, and keys an values come from the output of the encoder.</p>
+<h5 id="scaled-dot-product-attention">Scaled Dot-Product Attention</h5>
+<p><img src="2021-05-07-19-00-04.png" alt="">
+{Bahdanau 2015} introduced the additive attention and {Luong 2015} introduced the dot-product attention. Transfomer uses the scaled form the dot product attention. They used the dot product attention as it is much faster to computer with respect to the additive attention.</p>
+<p>The Query and Keys are multiplied ($QK^T$) and scaled using $\sqrt{d_k}$ where $d_k$ is the dimension of the keys, values and query vector. Masking is performed on this scaled matrix to ensure that the networks only sees the past values and not the future. Masking is performed by setting all the future values (above the main diagonal) in the matrix to $-\infty$. Softmax values are computed for the scaled query key products and multiplied with values.</p>
+<p>$QK^T$ vector is scaled by $\sqrt{d_k}$ to ensure that dot product does not grow very large in magnitude and softmax doesnot have extremely small gradients.</p>
+<p>$$Attention (Q,K,V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}}).V$$</p>
+<h3 id="multi-head-attention-1">Multi-Head Attention:</h3>
+<p>The multi-head attention is formed by projecting the query, value, and keys h times using linear layers and then performing the scaled dot-product attention. The outputs from all heads are concatenated and passed through a linear layer. In the paper they use $h = 8$</p>
+<p><img src="2021-05-07-19-16-37.png" alt=""></p>
 <!-- raw HTML omitted -->
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
