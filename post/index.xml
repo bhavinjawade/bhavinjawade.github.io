@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Attention is all you need (Paper Explained)</title>
+      <link>https://www.bhavinjawade.me/post/p1-transformers/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/post/p1-transformers/</guid>
+      <description>Transfomers: Attention is all you need. (Explanation) Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &amp;ldquo;Attention is all you need&amp;rdquo; paper that its full potential was explored.</description>
+    </item>
     
     <item>
       <title>Preflet: Get real-time predictive insights</title>
