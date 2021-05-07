@@ -17,7 +17,7 @@
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.me/post/p1-transformers/</guid>
-      <description>Transfomers: Attention is all you need. (Explanation) Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &amp;ldquo;Attention is all you need&amp;rdquo; paper that its full potential was explored.</description>
+      <description>Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &amp;ldquo;Attention is all you need&amp;rdquo; paper that its full potential was explored.</description>
     </item>
     
     <item>

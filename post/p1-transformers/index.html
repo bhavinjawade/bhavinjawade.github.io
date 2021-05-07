@@ -45,7 +45,7 @@
   
     
   
-  <meta name="description" content="Transfomers: Attention is all you need. (Explanation) Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored.">
+  <meta name="description" content="Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://www.bhavinjawade.me/post/p1-transformers/">
@@ -150,7 +150,7 @@
   <meta property="og:site_name" content="Bhavin Jawade">
   <meta property="og:url" content="https://www.bhavinjawade.me/post/p1-transformers/">
   <meta property="og:title" content="Attention is all you need (Paper Explained) | Bhavin Jawade">
-  <meta property="og:description" content="Transfomers: Attention is all you need. (Explanation) Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored."><meta property="og:image" content="https://www.bhavinjawade.me/post/p1-transformers/featured.jpeg">
+  <meta property="og:description" content="Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored."><meta property="og:image" content="https://www.bhavinjawade.me/post/p1-transformers/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2021-05-06T00:00:00&#43;00:00">
@@ -417,7 +417,7 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/post/p1-transformers/featured_hud693bc22cc883d2fb63e1971b56f3129_76284_800x0_resize_q90_lanczos.jpeg');"></div>
+  <div class="featured-image" style="background-image: url('/post/p1-transformers/featured_huc08a7c3e6c507329a9558ca031dbb3e9_86832_800x0_resize_lanczos_2.png');"></div>
   
 </div>
 
@@ -481,7 +481,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    1 min read
   </span>
   
 
@@ -562,7 +562,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/post/p1-transformers/featured_hud693bc22cc883d2fb63e1971b56f3129_76284_680x500_fill_q90_lanczos_smart1.jpeg" itemprop="image" alt="">
+        <img src="/post/p1-transformers/featured_huc08a7c3e6c507329a9558ca031dbb3e9_86832_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
         
       </div>
     </div>
@@ -625,7 +625,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    1 min read
   </span>
   
 
@@ -708,8 +708,7 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <h1 id="transfomers-attention-is-all-you-need-explanation">Transfomers: Attention is all you need. (Explanation)</h1>
-<p>Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored. Transfomer removed the dependence on LSTMs, RNNs and CNNs by solely applying attention mechanism.</p>
+      <p>Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &ldquo;Attention is all you need&rdquo; paper that its full potential was explored. Transfomer removed the dependence on LSTMs, RNNs and CNNs by solely applying attention mechanism.</p>
 <h2 id="transformer">Transformer</h2>
 <p>What makes the transfomer architecture novel and the paper seminal is that it was the first proposed work that relied entirely on self-attention for the sequence to sequence learning task. Just like previous seq2seq learning architectures, that transfomer model is autoregressive at each step, which means that the predicted token is used as an (additional) input for generating the next token.</p>
 <p>The basic architecture of transfomer can be divided into 2 parts:</p>
