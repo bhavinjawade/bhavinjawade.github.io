@@ -739,7 +739,8 @@
 </ol>
 <p>Each sublayers gets a residual input (Skip connection) from previous sublayer followed by a Layer Normalization. Layer normalization is different from batch normalization in the sense that input values for all neurons in the same layer are normalized for each data sample, unlike batch norm where input values of the same neuron for all the data in the mini-batch are normalized [J Lei Ba et.al].</p>
 <p>The encoder takes as in the positionally encoded input embedding. In the paper the authors used a sinusoidal function to define the positional encoding. In language modeling transformers like BERT, GPT-2 etc they typically use fully learnable matrix inplace of the sinusoidal function.</p>
-<p>$$PE_{(pos,2i+1)} = cos(pos/10000^{2i/dmodel})\PE_{(pos,2i)} = sin(pos/10000^{2i/dmodel})$$</p>
+<p>$$PE_{(pos,2i+1)} = cos(pos/10000^{2i/dmodel})\<br>
+PE_{(pos,2i)} = sin(pos/10000^{2i/dmodel})$$</p>
 <h2 id="multi-head-attention">Multi-Head Attention</h2>
 <p>The positionally encoded input embedding goes as input to the multi-head attention block. The Attention mechanism maps the key-value and query to the output. Query determines which words (values) to focus on (attend to). Both Key and Value are the sequences of input length. All key, value and query in case of the encoder, comes from previous layer of the encoder. In case of the decoder&rsquo;s second multi-head attention sublayer query comes from the previous decoder layer, and keys an values come from the output of the encoder.</p>
 <h5 id="scaled-dot-product-attention">Scaled Dot-Product Attention</h5>
