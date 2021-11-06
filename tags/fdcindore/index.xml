@@ -6,10 +6,19 @@
     <description>Recent content in fdcIndore on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2019 10:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Nov 2021 10:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.me/tags/fdcindore/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper Presentation - Google Deepmind&#39;s Thinking fast and slow: Thinking Fast and Slow: Efficient Text-to-Visual Retrieval with Transformers (CVPR)</title>
+      <link>https://www.bhavinjawade.me/talk/thinkingfastandslow/</link>
+      <pubDate>Fri, 05 Nov 2021 10:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/talk/thinkingfastandslow/</guid>
+      <description>Lab&amp;rsquo;s weekly paper presentation | CVPR paper presented at regular lab meeting.</description>
+    </item>
     
     <item>
       <title>Azure For App Developers</title>

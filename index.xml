@@ -5,8 +5,17 @@
     <description>Recent content in Bhavin Jawade on Bhavin Jawade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Nov 2021 10:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.bhavinjawade.me/talk/</link>
+      <pubDate>Fri, 05 Nov 2021 10:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.me/talk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Posts</title>
@@ -14,15 +23,6 @@
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.me/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://www.bhavinjawade.me/talk/</link>
-      <pubDate>Sun, 16 Jun 2019 10:00:00 -0400</pubDate>
-      
-      <guid>https://www.bhavinjawade.me/talk/</guid>
       <description></description>
     </item>
     
