@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bhavin Jawade</title>
-    <link>https://www.bhavinjawade.me/post/</link>
+    <link>https://www.bhavinjawade.github.io/post/</link>
     <description>Recent content in Posts on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.bhavinjawade.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bhavinjawade.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Attention is all you need (Paper Notes)</title>
-      <link>https://www.bhavinjawade.me/post/p1-transformers/</link>
+      <link>https://www.bhavinjawade.github.io/post/p1-transformers/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/p1-transformers/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/p1-transformers/</guid>
       <description>Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &amp;ldquo;Attention is all you need&amp;rdquo; paper that its full potential was explored.</description>
     </item>
     
     <item>
       <title>Preflet: Get real-time predictive insights</title>
-      <link>https://www.bhavinjawade.me/post/preflet/</link>
+      <link>https://www.bhavinjawade.github.io/post/preflet/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/preflet/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/preflet/</guid>
       <description>This Portuguese based Data Science Startup is trying to make predictive analysis accessible to everyone using its next gen platform called Preflet.</description>
     </item>
     
     <item>
       <title>Linkedin opensources Avro2TF</title>
-      <link>https://www.bhavinjawade.me/post/avrotf/</link>
+      <link>https://www.bhavinjawade.github.io/post/avrotf/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/avrotf/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/avrotf/</guid>
       <description>Linkedin has always been a active contributor to the opensource community. April 4th, LinkedIn announced a new opensource project Avro2TF..</description>
     </item>
     
     <item>
       <title>Blockchain?/! The Start of a new revolution</title>
-      <link>https://www.bhavinjawade.me/post/blockchain/</link>
+      <link>https://www.bhavinjawade.github.io/post/blockchain/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/blockchain/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/blockchain/</guid>
       <description>Today every big company you can think of is investing in Blockchain. From Tech giants like Microsoft and IBM to..</description>
     </item>
     
     <item>
       <title>Training HaarCascade Model on Microsoft Azure.</title>
-      <link>https://www.bhavinjawade.me/post/haarcascade/</link>
+      <link>https://www.bhavinjawade.github.io/post/haarcascade/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/haarcascade/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/haarcascade/</guid>
       <description>Using Viola Jones algorithm to detect objects in realtime</description>
     </item>
     
     <item>
       <title>Book Review: The Monk Who Sold His Ferrai</title>
-      <link>https://www.bhavinjawade.me/post/book_monk_who_sold_his_ferrari/</link>
+      <link>https://www.bhavinjawade.github.io/post/book_monk_who_sold_his_ferrari/</link>
       <pubDate>Sat, 29 Sep 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/book_monk_who_sold_his_ferrari/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/book_monk_who_sold_his_ferrari/</guid>
       <description>A book that will make you rethink about each and aspect of your life. The book is full of zen techniques to enrich your daily life and inspire you to live with discipline.</description>
     </item>
     
     <item>
       <title>Quantum Computing and Microsoft Q#</title>
-      <link>https://www.bhavinjawade.me/post/quantum/</link>
+      <link>https://www.bhavinjawade.github.io/post/quantum/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://www.bhavinjawade.me/post/quantum/</guid>
+      <guid>https://www.bhavinjawade.github.io/post/quantum/</guid>
       <description>Using Viola Jones algorithm to detect objects in realtime</description>
     </item>
     

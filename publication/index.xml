@@ -2,22 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Bhavin Jawade</title>
-    <link>https://www.bhavinjawade.me/publication/</link>
+    <link>https://www.bhavinjawade.github.io/publication/</link>
     <description>Recent content in Publications on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://www.bhavinjawade.me/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bhavinjawade.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings</title>
+      <link>https://www.bhavinjawade.github.io/publication/naploss/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/naploss/</guid>
+      <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
+    </item>
+    
+    <item>
+      <title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title>
+      <link>https://www.bhavinjawade.github.io/publication/heartheflow/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid>
+      <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
+    </item>
+    
+    <item>
+      <title>RidgeBase: A Cross-Sensor Multi-Finger Contactless Fingerprint Dataset</title>
+      <link>https://www.bhavinjawade.github.io/publication/ridgebase/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/ridgebase/</guid>
+      <description>IAPR/IEEE International Joint Conference on Biometrics (IJCB), 2022</description>
+    </item>
+    
+    <item>
+      <title>AD-ViT: Attribute De-biased Vision Transformer for Long-Term Person Re-identification</title>
+      <link>https://www.bhavinjawade.github.io/publication/advit/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/advit/</guid>
+      <description>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022</description>
+    </item>
+    
+    <item>
+      <title>Multi Loss Fusion For Matching Smartphone Captured Contactless Finger Images</title>
+      <link>https://www.bhavinjawade.github.io/publication/multiloss/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/multiloss/</guid>
+      <description>IEEE International Workshop On Forensics and Security (WIFS), 2021</description>
+    </item>
+    
+    <item>
       <title>Low Computation in-device geofencing Algorithm using hierarchy based searching for offline usage</title>
-      <link>https://www.bhavinjawade.me/publication/geofencing/</link>
+      <link>https://www.bhavinjawade.github.io/publication/geofencing/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://www.bhavinjawade.me/publication/geofencing/</guid>
-      <description>We implemented and tested the above algorithm as an android app. We can conclude that the above architecture for in-device implementation of a geofencing service works well without causing computational overhead. Apart from cell phone devices, our algorithm could be used for other kinds of Mobile computing applications [6], embedded systems and IoT devices. The algorithm can be especially used for creating applications that are supposed to provide geo-spatial services to its users (like a location-based reminder service) as there is no need to use external service APIs or other network based Geofencing techniques like “Network Proximity”[9] method. Future Scope: This architecture can still be improved. Additionally, creation of the geo-tree could be done using a density-based clustering algorithm like DBSCAN. For extremely large number of geofences creation of geo-tree could be optimally done by using a hybrid agglomerative hierarchical Clustering algorithm (like BIRCH) with a density-based clustering algorithm.</description>
+      <guid>https://www.bhavinjawade.github.io/publication/geofencing/</guid>
+      <description>IEEE International Conference on Inventive Computation Technologies (ICICT), 2018</description>
     </item>
     
   </channel>
