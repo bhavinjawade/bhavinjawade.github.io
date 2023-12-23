@@ -6,15 +6,24 @@
     <description>Recent content in Authors on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>admin</title>
+      <link>https://www.bhavinjawade.github.io/authors/admin/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>**Bhavin Jawade**</title>
       <link>https://www.bhavinjawade.github.io/authors/bhavin-jawade/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/bhavin-jawade/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>Deen Dayal Mohan</title>
       <link>https://www.bhavinjawade.github.io/authors/deen-dayal-mohan/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/deen-dayal-mohan/</guid>
       <description></description>
@@ -32,7 +41,7 @@
     <item>
       <title>Naji Mohammed</title>
       <link>https://www.bhavinjawade.github.io/authors/naji-mohammed/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/naji-mohammed/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Srirangaraj Setlur</title>
       <link>https://www.bhavinjawade.github.io/authors/srirangaraj-setlur/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/srirangaraj-setlur/</guid>
       <description></description>
@@ -50,16 +59,43 @@
     <item>
       <title>Venu Govindaraju</title>
       <link>https://www.bhavinjawade.github.io/authors/venu-govindaraju/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/venu-govindaraju/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Dennis Fedorishin</title>
+      <link>https://www.bhavinjawade.github.io/authors/dennis-fedorishin/</link>
+      <pubDate>Thu, 16 Nov 2023 09:47:21 -0500</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/authors/dennis-fedorishin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saleem Ahmed</title>
+      <link>https://www.bhavinjawade.github.io/authors/saleem-ahmed/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/authors/saleem-ahmed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shubham Pandey</title>
+      <link>https://www.bhavinjawade.github.io/authors/shubham-pandey/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/authors/shubham-pandey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dennis Fedroishin</title>
       <link>https://www.bhavinjawade.github.io/authors/dennis-fedroishin/</link>
-      <pubDate>Mon, 02 Jan 2023 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/dennis-fedroishin/</guid>
       <description></description>
@@ -134,15 +170,6 @@
       <pubDate>Fri, 05 Nov 2021 10:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/authors/josef-sivic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>admin</title>
-      <link>https://www.bhavinjawade.github.io/authors/admin/</link>
-      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bhavinjawade.github.io/authors/admin/</guid>
       <description></description>
     </item>
     
