@@ -57,10 +57,10 @@
   
     
   
-  <meta name="description" content="Getting started with opensource and creating your first VR app">
+  <meta name="description" content="The article explores Grouped Query Attention (GQA), an efficient pre-training strategy for large language models (LLMs) like LLaMA-2 and Mistral7B. It describes GQA as a hybrid of multi-head attention (MHA) and multi-query attention (MQA), providing a balance between computational efficiency and model quality. The article also discusses the challenges of MHA, such as memory bandwidth, and how GQA addresses these by grouping query heads to optimize training and inference in large-scale models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.bhavinjawade.github.io/talk/sageuni/">
+  <link rel="alternate" hreflang="en-us" href="https://www.bhavinjawade.github.io/post/gqa/">
 
   
 
@@ -149,7 +149,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.bhavinjawade.github.io/talk/sageuni/">
+  <link rel="canonical" href="https://www.bhavinjawade.github.io/post/gqa/">
 
   
   
@@ -160,21 +160,21 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Bhavin Jawade">
-  <meta property="og:url" content="https://www.bhavinjawade.github.io/talk/sageuni/">
-  <meta property="og:title" content="SAGE University Indore: Session on OpenSource with Facebook. | Bhavin Jawade">
-  <meta property="og:description" content="Getting started with opensource and creating your first VR app"><meta property="og:image" content="https://www.bhavinjawade.github.io/talk/sageuni/featured.jpg">
+  <meta property="og:url" content="https://www.bhavinjawade.github.io/post/gqa/">
+  <meta property="og:title" content="Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training | Bhavin Jawade">
+  <meta property="og:description" content="The article explores Grouped Query Attention (GQA), an efficient pre-training strategy for large language models (LLMs) like LLaMA-2 and Mistral7B. It describes GQA as a hybrid of multi-head attention (MHA) and multi-query attention (MQA), providing a balance between computational efficiency and model quality. The article also discusses the challenges of MHA, such as memory bandwidth, and how GQA addresses these by grouping query heads to optimize training and inference in large-scale models."><meta property="og:image" content="https://www.bhavinjawade.github.io/post/gqa/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-05T00:00:00-04:00">
+  <meta property="article:published_time" content="2023-12-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-04-05T10:00:00-04:00">
-  
-
+  <meta property="article:modified_time" content="2023-12-15T00:00:00&#43;00:00">
   
 
   
 
-  <title>SAGE University Indore: Session on OpenSource with Facebook. | Bhavin Jawade</title>
+  
+
+  <title>Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training | Bhavin Jawade</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -411,7 +411,8 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
@@ -428,7 +429,7 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/talk/sageuni/featured_hu4611264e2c66c8f123318a000f6bbdf8_100075_800x0_resize_q90_lanczos.jpg');"></div>
+  <div class="featured-image" style="background-image: url('/post/gqa/featured_hua0f9df5b5705f0e87ce8b50ad1bdbeff_920748_800x0_resize_lanczos_2.png');"></div>
   
 </div>
 
@@ -437,32 +438,69 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">SAGE University Indore: Session on OpenSource with Facebook.</h1>
+        <h1 itemprop="name">Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training</h1>
 
+        
+        <p class="page-subtitle">The variant of multi-head attention powering LLMs like LLaMA-2, Mistral7B, etc.</p>
         
 
         
 
 
 
-<meta content="2019-04-05 10:00:00 -0400 EDT" itemprop="datePublished">
-<meta content="2019-04-05 10:00:00 -0400 EDT" itemprop="dateModified">
+<meta content="2023-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/admin/">Bhavin Jawade</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Dec 15, 2023</time>
+  </span>
   
 
   
 
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
   
 
   
   
   <span class="middot-divider"></span>
-  <a href="/talk/sageuni/#disqus_thread"></a>
+  <a href="/post/gqa/#disqus_thread"></a>
   
 
   
@@ -488,67 +526,6 @@
 
 
 
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/1d9q2StJE6qawXFj6dMjELl_A-31hrVQP/view?usp=sharing" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/bhavinjawade/iistvr" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://docs.google.com/presentation/d/1dHwdW4N_5TAm5alTegvy_ujflsMY7Y47lDASOoXLziI/edit?usp=sharing" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://bhavinjawade.github.io/iistvr/" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
 
 
 
@@ -557,35 +534,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook.&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f"
+         href="https://twitter.com/intent/tweet?text=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f&amp;title=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook."
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f&amp;title=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f&amp;title=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook."
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f&amp;title=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook.&amp;body=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f">
+         href="mailto:?subject=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training&amp;body=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -597,7 +574,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/talk/sageuni/featured_hu4611264e2c66c8f123318a000f6bbdf8_100075_680x500_fill_q90_lanczos_right.jpg" itemprop="image" alt="">
+        <img src="/post/gqa/featured_hua0f9df5b5705f0e87ce8b50ad1bdbeff_920748_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
         
       </div>
     </div>
@@ -605,32 +582,69 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">SAGE University Indore: Session on OpenSource with Facebook.</h1>
+  <h1 itemprop="name">Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training</h1>
 
+  
+  <p class="page-subtitle">The variant of multi-head attention powering LLMs like LLaMA-2, Mistral7B, etc.</p>
   
 
   
 
 
 
-<meta content="2019-04-05 10:00:00 -0400 EDT" itemprop="datePublished">
-<meta content="2019-04-05 10:00:00 -0400 EDT" itemprop="dateModified">
+<meta content="2023-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/admin/">Bhavin Jawade</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Dec 15, 2023</time>
+  </span>
   
 
   
 
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
   
 
   
   
   <span class="middot-divider"></span>
-  <a href="/talk/sageuni/#disqus_thread"></a>
+  <a href="/post/gqa/#disqus_thread"></a>
   
 
   
@@ -641,35 +655,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook.&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f"
+         href="https://twitter.com/intent/tweet?text=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f&amp;title=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook."
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f&amp;title=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f&amp;title=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook."
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f&amp;title=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=SAGE%20University%20Indore%3a%20Session%20on%20OpenSource%20with%20Facebook.&amp;body=https%3a%2f%2fwww.bhavinjawade.github.io%2ftalk%2fsageuni%2f">
+         href="mailto:?subject=Demystifying%20GQA%20%e2%80%94%20Grouped%20Query%20Attention%20for%20Efficient%20LLM%20Pre-training&amp;body=https%3a%2f%2fwww.bhavinjawade.github.io%2fpost%2fgqa%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -698,67 +712,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/1d9q2StJE6qawXFj6dMjELl_A-31hrVQP/view?usp=sharing" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/bhavinjawade/iistvr" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://docs.google.com/presentation/d/1dHwdW4N_5TAm5alTegvy_ujflsMY7Y47lDASOoXLziI/edit?usp=sharing" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://bhavinjawade.github.io/iistvr/" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
-
 
 </div>
 
@@ -766,82 +719,56 @@
 
   <div class="article-container">
 
-    
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">This session will cover following topics: <br>1. How to contribute to Open Source <br>2. React 360 Walkthrough <br>3. A detailed demonstration of webVR <br>4. Getting started with Git/Github</p>
-    
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Apr 5, 2019
-            <div class="talk-time">
-              
-                10:00 AM
-                
-                  &mdash; 1:00 AM
-                
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            
-            Open Source with Facebook
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">SAGE University Indore, Sagar Institute of Research and Technology.</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style">
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<p><ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-3400148121105734"
-data-ad-slot="6611678374"></ins></p>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<div class="alert alert-note">
-  <div>
-<p>Click on the <strong>Slides</strong> button above to view the built-in slides feature.</p>
-  </div>
-</div>
+    <div class="article-style" itemprop="articleBody">
+      <p><strong>Before we get started</strong><br>
+<strong>Read this article on</strong> <a href="https://towardsdatascience.com/demystifying-gqa-grouped-query-attention-3fb97b678e4a">Towards Data Science</a><br>
+<strong>Follow me on medium:</strong> <a href="https://bhavinjawade.medium.com/">https://bhavinjawade.medium.com/</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>In the previous article on training large-scale models, we looked at LoRA. In this article, we will examine another strategy adopted by different large language models for efficient training — Grouped Query Attention (GQA). In short, Grouped Query Attention (GQA) is a generalization of multi-head attention (MHA) and multi-query attention (MQA) — with each of them being a special case of GQA. Therefore, before we dive into Grouped Query Attention, let’s revisit traditional multi-head attention proposed by Vaswani et al. in the seminal “Attention is All You Need” paper. Following that, we will explore Multi-query attention and how it addresses challenges with MHA. Finally, we will answer the questions “What is GQA?” and “How does it give us the best of both worlds?”</p>
+<h2 id="multi-head-attention">Multi-head Attention</h2>
+<p>Multi-head attention is a critical component of Transformer models, enabling them to efficiently process and understand complex sequences in tasks like language translation, summarization, and more. To grasp its intricacies, we must delve into the mathematical underpinnings and understand how multiple heads in the attention mechanism function.</p>
+<p>The basic attention mechanism computes a weighted sum of values, with weights dependent on a query and a set of keys. Mathematically, this is expressed as:</p>
+<p>$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$</p>
+<p>This is referred to as scaled dot product attention. In this equation, Q (Query) and K (Key) are matrices representing the queries and keys. V (Value) is the matrix for values. “d_k” is the dimensionality of keys, which is used for scaling.</p>
+<h3 id="expanding-with-multi-head-attention-mha">Expanding with Multi-Head Attention (MHA)</h3>
+<p>Multi-head attention employs multiple ‘heads’ of attention layers, enabling the model to attend to information from different representation subspaces. In each head, there is an independent set of linear layers (projection matrices) for the query, key, and values (this is an important point that we will revisit in GQA). For each head (numbered h):</p>
+<p>$$
+headʰ = Attention(Q.Wqʰ,K.Wkʰ,V.Wvʰ)
+$$
+shell
+Copy code</p>
+<h3 id="concatenating-head-outputs">Concatenating Head Outputs</h3>
+<p>The outputs of the individual heads are concatenated and then linearly transformed.</p>
+<p>$$
+MultiHead(Q,K,V) = Concat(head¹,head²,…,headʰ) .Wᵒ
+$$</p>
+<p>Wᵒ is another weight matrix that linearly transforms the concatenated vector to the final output dimension.</p>
+<p>The intuition behind multi-head attention is that by applying the attention mechanism multiple times in parallel, the model can capture different types of relationships in the data.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*OJVVcxb9QV1WZwcQFA5Sew.png" alt="Illustration of Multi-Head Attention">
+<em>Source: Sections of the diagram from &ldquo;Attention is All You Need&rdquo; paper [https://arxiv.org/abs/1706.03762], composition by the author</em></p>
+<h3 id="the-memory-bandwidth-challenge-in-multi-head-attention">The Memory Bandwidth Challenge in Multi-Head Attention</h3>
+<p>The crux of the issue lies in the memory overhead. Each decoding step in autoregressive models like Transformers requires loading decoder weights along with all attention keys and values. This process is not only computationally intensive but also memory bandwidth-intensive. As model sizes grow, this overhead also increases, making scaling up an increasingly arduous task.</p>
+<h3 id="emergence-of-multi-query-attention-mqa">Emergence of Multi-Query Attention (MQA)</h3>
+<p>Multi-query attention (MQA) emerged as a solution to mitigate this bottleneck. The idea is simple yet effective: use multiple query heads but only a single key and value head. This approach significantly reduces the memory load, enhancing inference speed. It has been employed in multiple large-scale models such as PaLM, StarCoder, and Falcon.</p>
+<p>In multi-query attention, we average the heads for keys and values so that all query heads share the same key and value head. This is achieved by replicating the mean-pooled “head” H times, where H is the number of query heads.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*HaRjh9kaK2h92iASlHTeRw.png" alt="Multi-Query Attention">
+<em>Source: <a href="https://arxiv.org/pdf/2305.13245.pdf">https://arxiv.org/pdf/2305.13245.pdf</a></em></p>
+<h2 id="grouped-query-attention">Grouped Query Attention</h2>
+<p>Grouped-query attention (GQA) is a simple approach that blends elements of multi-head attention (MHA) and multi-query attention (MQA) to create a more efficient attention mechanism. The mathematical framework of GQA can be understood as follows:</p>
+<h3 id="division-into-groups">Division into Groups</h3>
+<p>In GQA, the query heads (Q) from a traditional multi-head model are divided into G groups. Each group is assigned a single key (K) and value (V) head. This configuration is denoted as GQA-G, where G represents the number of groups.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*XRDph-5WtcnhLpjpEqL2Ow.png" alt="Difference between MHA, GQA, and MQA">
+<em>Source: <a href="https://arxiv.org/pdf/2305.13245.pdf">https://arxiv.org/pdf/2305.13245.pdf</a></em></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this post, we first looked at traditional multi-head attention (MHA) and its variant Multi-query attention. Then we looked at a more generic formulation GQA, which is used by many LLM models for effective pre-training. GQA combines multi-head attention (MHA) with multi-query attention (MQA), providing a fair trade-off between quality and speed. GQA minimizes memory bandwidth demands by grouping query heads, making it appropriate for scaling up models. GQA has been used in place of typical multi-head attention in recent models such as the LLaMA-2 and Mistral7B.</p>
+<h3 id="references">References:</h3>
+<ol>
+<li><a href="https://arxiv.org/pdf/2305.13245.pdf">GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints</a></li>
+<li><a href="https://arxiv.org/abs/1911.02150">MQA: Fast Transformer Decoding: One Write-Head is All You Need</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762">MHA: Attention is all you need</a></li>
+</ol>
 
     </div>
 
@@ -850,25 +777,33 @@ data-ad-slot="6611678374"></ins></p>
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/meetup/">Meetup</a>
+  <a class="badge badge-light" href="/tags/bigdata/">Bigdata</a>
   
-  <a class="badge badge-light" href="/tags/devcindore/">DevCIndore</a>
+  <a class="badge badge-light" href="">Machine Learning</a>
   
-  <a class="badge badge-light" href="/tags/devc/">DevC</a>
+  <a class="badge badge-light" href="">Deep Learning</a>
   
-  <a class="badge badge-light" href="/tags/fdcindore/">fdcIndore</a>
+  <a class="badge badge-light" href="/tags/opensource/">Opensource</a>
+  
+  <a class="badge badge-light" href="/tags/llm/">LLM</a>
   
 </div>
 
 
 
+
     
+      
 
 
 
 
 
 
+  
+  
+    
+  
   
 
 
@@ -1012,11 +947,54 @@ data-ad-slot="6611678374"></ins></p>
 
 
 
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/post/lora/">Understanding LoRA — Low Rank Adaptation For Finetuning Large Models</a></li>
+          
+          <li><a href="/post/avrotf/">Linkedin opensources Avro2TF</a></li>
+          
+          <li><a href="/publication/conan/">CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion *(Best Paper Award)* (Oral)</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bhavinjawade-me" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
 
   </div>
-</div>
-
-
+</article>
 
 <div class="container">
   <footer class="site-footer">
@@ -1103,9 +1081,6 @@ data-ad-slot="6611678374"></ins></p>
 
     
     
-    
-    <script src="/js/mathjax-config.js"></script>
-    
 
     
     
@@ -1123,8 +1098,6 @@ data-ad-slot="6611678374"></ins></p>
       
 
       
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 

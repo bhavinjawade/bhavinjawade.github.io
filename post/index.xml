@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training</title>
+      <link>https://www.bhavinjawade.github.io/post/gqa/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/gqa/</guid>
+      <description>The article explores Grouped Query Attention (GQA), an efficient pre-training strategy for large language models (LLMs) like LLaMA-2 and Mistral7B. It describes GQA as a hybrid of multi-head attention (MHA) and multi-query attention (MQA), providing a balance between computational efficiency and model quality. The article also discusses the challenges of MHA, such as memory bandwidth, and how GQA addresses these by grouping query heads to optimize training and inference in large-scale models.</description>
+    </item>
     
     <item>
       <title>Understanding LoRA — Low Rank Adaptation For Finetuning Large Models</title>
