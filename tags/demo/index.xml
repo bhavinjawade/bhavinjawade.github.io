@@ -6,7 +6,7 @@
     <description>Recent content in Demo on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Now You See Me</title>
       <link>https://www.bhavinjawade.github.io/project/external-project/</link>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/project/external-project/</guid>
       <description>An example of linking directly to an external project website using &lt;code&gt;external_link&lt;/code&gt;.</description>
