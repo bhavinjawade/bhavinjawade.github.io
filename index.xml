@@ -5,8 +5,17 @@
     <description>Recent content in Bhavin Jawade on Bhavin Jawade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Publications</title>
+      <link>https://www.bhavinjawade.github.io/publication/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0530</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Posts</title>
@@ -18,18 +27,9 @@
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://www.bhavinjawade.github.io/publication/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 -0800</pubDate>
-      
-      <guid>https://www.bhavinjawade.github.io/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://www.bhavinjawade.github.io/talk/</link>
-      <pubDate>Fri, 05 Nov 2021 10:00:00 -0700</pubDate>
+      <pubDate>Fri, 05 Nov 2021 10:00:00 +0530</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/talk/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>Projects</title>
       <link>https://www.bhavinjawade.github.io/project/</link>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0530</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/project/</guid>
       <description></description>
@@ -47,7 +47,7 @@
     <item>
       <title>Tutorials and Docs</title>
       <link>https://www.bhavinjawade.github.io/tutorial/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/tutorial/</guid>
       <description>&lt;p&gt;This feature can be used for publishing content such as:&lt;/p&gt;
