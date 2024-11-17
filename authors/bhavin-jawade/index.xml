@@ -6,7 +6,7 @@
     <description>Recent content in **Bhavin Jawade** on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/authors/bhavin-jawade/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>ProxyFusion: Face Feature Aggregation Through Sparse Experts</title>
       <link>https://www.bhavinjawade.github.io/publication/proxyfusion/</link>
-      <pubDate>Thu, 04 Jul 2024 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/proxyfusion/</guid>
       <description>(NeurIPS 2024) The Thirty-eighth Annual Conference on Neural Information Processing Systems</description>
@@ -23,7 +23,7 @@
     <item>
       <title>SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval</title>
       <link>https://www.bhavinjawade.github.io/publication/scotwacv/</link>
-      <pubDate>Thu, 04 Jul 2024 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/scotwacv/</guid>
       <description>(WACV 2025) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
@@ -32,7 +32,7 @@
     <item>
       <title>NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings</title>
       <link>https://www.bhavinjawade.github.io/publication/naploss/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/naploss/</guid>
       <description>(WACV 2023) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
@@ -41,7 +41,7 @@
     <item>
       <title>CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion *(Best Paper Award)* (Oral)</title>
       <link>https://www.bhavinjawade.github.io/publication/conan/</link>
-      <pubDate>Thu, 16 Nov 2023 09:47:21 +0530</pubDate>
+      <pubDate>Thu, 16 Nov 2023 09:47:21 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/conan/</guid>
       <description>(IJCB 2023), IEEE International Joint Conference on Biometrics</description>
@@ -50,7 +50,7 @@
     <item>
       <title>Conditional Neural Aggregation Network For Unconstrained Long Range Biometric Feature Fusion</title>
       <link>https://www.bhavinjawade.github.io/publication/tbiomconan/</link>
-      <pubDate>Mon, 16 Oct 2023 09:47:21 +0530</pubDate>
+      <pubDate>Mon, 16 Oct 2023 09:47:21 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/tbiomconan/</guid>
       <description>IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 2024</description>
@@ -59,7 +59,7 @@
     <item>
       <title>RealCQA: Scientific Chart Question Answering as a Test-Bed for First-Order Logic</title>
       <link>https://www.bhavinjawade.github.io/publication/realcqa/</link>
-      <pubDate>Sat, 19 Aug 2023 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/realcqa/</guid>
       <description>IEEE/IAPR International Conference on Document Analysis and Recognition (ICDAR), 2023</description>
@@ -68,7 +68,7 @@
     <item>
       <title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title>
       <link>https://www.bhavinjawade.github.io/publication/heartheflow/</link>
-      <pubDate>Thu, 02 Feb 2023 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid>
       <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
@@ -77,7 +77,7 @@
     <item>
       <title>Deep metric learning for computer vision: A brief overview</title>
       <link>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</link>
-      <pubDate>Tue, 03 Jan 2023 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</guid>
       <description>Book Chapter - Handbook of Statistics, Edition 48</description>
@@ -86,7 +86,7 @@
     <item>
       <title>RidgeBase: A Cross-Sensor Multi-Finger Contactless Fingerprint Dataset</title>
       <link>https://www.bhavinjawade.github.io/publication/ridgebase/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/ridgebase/</guid>
       <description>IAPR/IEEE International Joint Conference on Biometrics (IJCB), 2022</description>
@@ -95,7 +95,7 @@
     <item>
       <title>AD-ViT: Attribute De-biased Vision Transformer for Long-Term Person Re-identification</title>
       <link>https://www.bhavinjawade.github.io/publication/advit/</link>
-      <pubDate>Fri, 15 Jul 2022 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/advit/</guid>
       <description>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022</description>
@@ -104,7 +104,7 @@
     <item>
       <title>Multi Loss Fusion For Matching Smartphone Captured Contactless Finger Images</title>
       <link>https://www.bhavinjawade.github.io/publication/multiloss/</link>
-      <pubDate>Wed, 15 Dec 2021 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/multiloss/</guid>
       <description>IEEE International Workshop On Forensics and Security (WIFS), 2021</description>
@@ -113,7 +113,7 @@
     <item>
       <title>Azure For App Developers</title>
       <link>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</link>
-      <pubDate>Sun, 16 Jun 2019 10:00:00 +0530</pubDate>
+      <pubDate>Sun, 16 Jun 2019 10:00:00 -0400</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</guid>
       <description>Azure for App Developers</description>
@@ -122,7 +122,7 @@
     <item>
       <title>Low Computation in-device geofencing Algorithm using hierarchy based searching for offline usage</title>
       <link>https://www.bhavinjawade.github.io/publication/geofencing/</link>
-      <pubDate>Thu, 15 Nov 2018 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/publication/geofencing/</guid>
       <description>IEEE International Conference on Inventive Computation Technologies (ICICT), 2018</description>
