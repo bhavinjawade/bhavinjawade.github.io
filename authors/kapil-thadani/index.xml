@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kapil Thadani on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/kapil-thadani/</link>
+    <description>Recent content in Kapil Thadani on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/kapil-thadani/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval</title>
+      <link>https://www.bhavinjawade.github.io/publication/scotwacv/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/scotwacv/</guid>
+      <description>(WACV 2025) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
+    </item>
+    
+  </channel>
+</rss>

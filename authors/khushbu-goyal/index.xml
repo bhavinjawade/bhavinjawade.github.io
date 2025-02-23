@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khushbu Goyal on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/khushbu-goyal/</link>
+    <description>Recent content in Khushbu Goyal on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/khushbu-goyal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Low Computation in-device geofencing Algorithm using hierarchy based searching for offline usage</title>
+      <link>https://www.bhavinjawade.github.io/publication/geofencing/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/geofencing/</guid>
+      <description>IEEE International Conference on Inventive Computation Technologies (ICICT), 2018</description>
+    </item>
+    
+  </channel>
+</rss>

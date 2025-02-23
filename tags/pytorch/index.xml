@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pytorch on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/pytorch/</link>
+    <description>Recent content in pytorch on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Nov 2021 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper Presentation - Google Deepmind&#39;s Thinking fast and slow: Efficient Text-to-Visual Retrieval with Transformers (CVPR)</title>
+      <link>https://www.bhavinjawade.github.io/talk/thinkingfastandslow/</link>
+      <pubDate>Fri, 05 Nov 2021 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/thinkingfastandslow/</guid>
+      <description>Lab&amp;rsquo;s weekly paper presentation | CVPR paper presented at regular lab meeting.</description>
+    </item>
+    
+    <item>
+      <title>Pytorch: Deep Learning Framework | F8 Indore Meetup</title>
+      <link>https://www.bhavinjawade.github.io/talk/pytorchf8/</link>
+      <pubDate>Sun, 05 May 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/pytorchf8/</guid>
+      <description>Facebook Developer Cirlce Indore | F8 Indore Meetup | Pytorch: Deep Learning Framework</description>
+    </item>
+    
+  </channel>
+</rss>

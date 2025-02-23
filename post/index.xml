@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/post/</link>
+    <description>Recent content in Posts on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ORPO — Preference Optimization without Reference Model</title>
+      <link>https://www.bhavinjawade.github.io/post/orpo/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/orpo/</guid>
+      <description>Typically, preference alignment in large language models (LLMs) requires a reference model and a warm-up phase of supervised fine-tuning. ORPO proposes a monolithic approach by integrating preference alignment directly into the supervised fine-tuning (SFT) stage, ensuring that the model can learn human preferences during instruction tuning itself.</description>
+    </item>
+    
+    <item>
+      <title>Tuning-Free Longer Context Lengths For LLMs — A Review of Self-Extend (LLM Maybe LongLM)</title>
+      <link>https://www.bhavinjawade.github.io/post/selfextend/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/selfextend/</guid>
+      <description>LLMs are typically trained on fixed-length sequences, leading to performance degradation when dealing with longer texts due to positional Out-Of-Distribution (O.O.D) issues. The paper proposes a solution called &amp;lsquo;Self-Extend,&amp;rsquo; which uses grouped attention to handle longer sequences by mapping out-of-distribution positions into the trained range. This approach combines normal and grouped attention, maintaining precision for nearby tokens and context awareness for distant tokens. The method significantly reduces perplexity in models and improves performance in various NLP tasks without impacting short-context tasks.</description>
+    </item>
+    
+    <item>
+      <title>Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training</title>
+      <link>https://www.bhavinjawade.github.io/post/gqa/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/gqa/</guid>
+      <description>The article explores Grouped Query Attention (GQA), an efficient pre-training strategy for large language models (LLMs) like LLaMA-2 and Mistral7B. It describes GQA as a hybrid of multi-head attention (MHA) and multi-query attention (MQA), providing a balance between computational efficiency and model quality. The article also discusses the challenges of MHA, such as memory bandwidth, and how GQA addresses these by grouping query heads to optimize training and inference in large-scale models.</description>
+    </item>
+    
+    <item>
+      <title>Understanding LoRA — Low Rank Adaptation For Finetuning Large Models</title>
+      <link>https://www.bhavinjawade.github.io/post/lora/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/lora/</guid>
+      <description>Fine-tuning large pre-trained models is computationally challenging, often involving adjustment of millions of parameters. This traditional fine-tuning approach, while effective, demands substantial computational resources and time, posing a bottleneck for adapting these models to specific tasks. LoRA presented an effective solution to this problem by decomposing the update matrix during finetuing.</description>
+    </item>
+    
+    <item>
+      <title>Attention is all you need (Paper Notes)</title>
+      <link>https://www.bhavinjawade.github.io/post/p1-transformers/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/p1-transformers/</guid>
+      <description>Till 2017, the domain of language modelling, sequence to sequence learning, language translation, image captioning where all dominated by RNNs and LSTMS. For example in a image captioning task you would have CNN based encoder and a LSTM based decoder. Though attention was introduced back in 2015, with NMT paper [Bahdanau et al., 2015] to overcome the fixed context vector drawback of traditional encoder-decoder architecture, it was not untill 2017 &amp;ldquo;Attention is all you need&amp;rdquo; paper that its full potential was explored.</description>
+    </item>
+    
+    <item>
+      <title>Preflet: Get real-time predictive insights</title>
+      <link>https://www.bhavinjawade.github.io/post/preflet/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/preflet/</guid>
+      <description>This Portuguese based Data Science Startup is trying to make predictive analysis accessible to everyone using its next gen platform called Preflet.</description>
+    </item>
+    
+    <item>
+      <title>Linkedin opensources Avro2TF</title>
+      <link>https://www.bhavinjawade.github.io/post/avrotf/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/avrotf/</guid>
+      <description>Linkedin has always been a active contributor to the opensource community. April 4th, LinkedIn announced a new opensource project Avro2TF..</description>
+    </item>
+    
+    <item>
+      <title>Blockchain?/! The Start of a new revolution</title>
+      <link>https://www.bhavinjawade.github.io/post/blockchain/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/blockchain/</guid>
+      <description>Today every big company you can think of is investing in Blockchain. From Tech giants like Microsoft and IBM to..</description>
+    </item>
+    
+    <item>
+      <title>Training HaarCascade Model on Microsoft Azure.</title>
+      <link>https://www.bhavinjawade.github.io/post/haarcascade/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/haarcascade/</guid>
+      <description>Using Viola Jones algorithm to detect objects in realtime</description>
+    </item>
+    
+    <item>
+      <title>Book Review: The Monk Who Sold His Ferrai</title>
+      <link>https://www.bhavinjawade.github.io/post/book_monk_who_sold_his_ferrari/</link>
+      <pubDate>Sat, 29 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/book_monk_who_sold_his_ferrari/</guid>
+      <description>A book that will make you rethink about each and aspect of your life. The book is full of zen techniques to enrich your daily life and inspire you to live with discipline.</description>
+    </item>
+    
+    <item>
+      <title>Quantum Computing and Microsoft Q#</title>
+      <link>https://www.bhavinjawade.github.io/post/quantum/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/quantum/</guid>
+      <description>Using Viola Jones algorithm to detect objects in realtime</description>
+    </item>
+    
+  </channel>
+</rss>

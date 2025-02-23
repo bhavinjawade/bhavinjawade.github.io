@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ravi Teja Gadde on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/ravi-teja-gadde/</link>
+    <description>Recent content in Ravi Teja Gadde on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/ravi-teja-gadde/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Audio-Visual Representation Learning For Lip-Sync Estimation Through Ranking Augmented Contrastive Training</title>
+      <link>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</guid>
+      <description>(ICASSP 2025) IEEE International Conference on Acoustics, Speech, and Signal Processing 2025</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/meetup/</link>
+    <description>Recent content in Meetup on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Nov 2021 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper Presentation - Google Deepmind&#39;s Thinking fast and slow: Efficient Text-to-Visual Retrieval with Transformers (CVPR)</title>
+      <link>https://www.bhavinjawade.github.io/talk/thinkingfastandslow/</link>
+      <pubDate>Fri, 05 Nov 2021 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/thinkingfastandslow/</guid>
+      <description>Lab&amp;rsquo;s weekly paper presentation | CVPR paper presented at regular lab meeting.</description>
+    </item>
+    
+    <item>
+      <title>Azure For App Developers</title>
+      <link>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</link>
+      <pubDate>Sun, 16 Jun 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</guid>
+      <description>Azure for App Developers</description>
+    </item>
+    
+    <item>
+      <title>Pytorch: Deep Learning Framework | F8 Indore Meetup</title>
+      <link>https://www.bhavinjawade.github.io/talk/pytorchf8/</link>
+      <pubDate>Sun, 05 May 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/pytorchf8/</guid>
+      <description>Facebook Developer Cirlce Indore | F8 Indore Meetup | Pytorch: Deep Learning Framework</description>
+    </item>
+    
+    <item>
+      <title>Women of Developer Circle | Facebook Developer Circles Indore</title>
+      <link>https://www.bhavinjawade.github.io/talk/womenofdevc/</link>
+      <pubDate>Sun, 14 Apr 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/womenofdevc/</guid>
+      <description>Facebook Developer Cirlce Indore | Women in Tech.</description>
+    </item>
+    
+    <item>
+      <title>SAGE University Indore: Session on OpenSource with Facebook.</title>
+      <link>https://www.bhavinjawade.github.io/talk/sageuni/</link>
+      <pubDate>Fri, 05 Apr 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/sageuni/</guid>
+      <description>Getting started with opensource and creating your first VR app</description>
+    </item>
+    
+    <item>
+      <title>Hands-On React 360</title>
+      <link>https://www.bhavinjawade.github.io/talk/reactiist/</link>
+      <pubDate>Sat, 09 Feb 2019 11:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/reactiist/</guid>
+      <description>3 Hours Hands-On Virtual Reality with React 360.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Open Source - React, Reason and Pytorch</title>
+      <link>https://www.bhavinjawade.github.io/talk/nitbhopal/</link>
+      <pubDate>Sat, 10 Nov 2018 18:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/nitbhopal/</guid>
+      <description>I was invited as a tech speaker and mentor for Version Beta hackathon held at NIT Bhopal.</description>
+    </item>
+    
+  </channel>
+</rss>

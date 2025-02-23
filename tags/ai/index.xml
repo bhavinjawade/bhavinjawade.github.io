@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/ai/</link>
+    <description>Recent content in AI on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ORPO — Preference Optimization without Reference Model</title>
+      <link>https://www.bhavinjawade.github.io/post/orpo/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/orpo/</guid>
+      <description>Typically, preference alignment in large language models (LLMs) requires a reference model and a warm-up phase of supervised fine-tuning. ORPO proposes a monolithic approach by integrating preference alignment directly into the supervised fine-tuning (SFT) stage, ensuring that the model can learn human preferences during instruction tuning itself.</description>
+    </item>
+    
+  </channel>
+</rss>

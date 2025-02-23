@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linkedin on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/linkedin/</link>
+    <description>Recent content in Linkedin on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linkedin opensources Avro2TF</title>
+      <link>https://www.bhavinjawade.github.io/post/avrotf/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/avrotf/</guid>
+      <description>Linkedin has always been a active contributor to the opensource community. April 4th, LinkedIn announced a new opensource project Avro2TF..</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swiftIndia on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/swiftindia/</link>
+    <description>Recent content in swiftIndia on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2019 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/swiftindia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure For App Developers</title>
+      <link>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</link>
+      <pubDate>Sun, 16 Jun 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</guid>
+      <description>Azure for App Developers</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiao Wang on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/xiao-wang/</link>
+    <description>Recent content in Xiao Wang on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/xiao-wang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ProxyFusion: Face Feature Aggregation Through Sparse Experts</title>
+      <link>https://www.bhavinjawade.github.io/publication/proxyfusion/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/proxyfusion/</guid>
+      <description>(NeurIPS 2024) The Thirty-eighth Annual Conference on Neural Information Processing Systems</description>
+    </item>
+    
+  </channel>
+</rss>

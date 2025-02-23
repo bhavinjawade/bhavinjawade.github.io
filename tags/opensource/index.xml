@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opensource on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/opensource/</link>
+    <description>Recent content in Opensource on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tuning-Free Longer Context Lengths For LLMs — A Review of Self-Extend (LLM Maybe LongLM)</title>
+      <link>https://www.bhavinjawade.github.io/post/selfextend/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/selfextend/</guid>
+      <description>LLMs are typically trained on fixed-length sequences, leading to performance degradation when dealing with longer texts due to positional Out-Of-Distribution (O.O.D) issues. The paper proposes a solution called &amp;lsquo;Self-Extend,&amp;rsquo; which uses grouped attention to handle longer sequences by mapping out-of-distribution positions into the trained range. This approach combines normal and grouped attention, maintaining precision for nearby tokens and context awareness for distant tokens. The method significantly reduces perplexity in models and improves performance in various NLP tasks without impacting short-context tasks.</description>
+    </item>
+    
+    <item>
+      <title>Demystifying GQA — Grouped Query Attention for Efficient LLM Pre-training</title>
+      <link>https://www.bhavinjawade.github.io/post/gqa/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/gqa/</guid>
+      <description>The article explores Grouped Query Attention (GQA), an efficient pre-training strategy for large language models (LLMs) like LLaMA-2 and Mistral7B. It describes GQA as a hybrid of multi-head attention (MHA) and multi-query attention (MQA), providing a balance between computational efficiency and model quality. The article also discusses the challenges of MHA, such as memory bandwidth, and how GQA addresses these by grouping query heads to optimize training and inference in large-scale models.</description>
+    </item>
+    
+    <item>
+      <title>Understanding LoRA — Low Rank Adaptation For Finetuning Large Models</title>
+      <link>https://www.bhavinjawade.github.io/post/lora/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/lora/</guid>
+      <description>Fine-tuning large pre-trained models is computationally challenging, often involving adjustment of millions of parameters. This traditional fine-tuning approach, while effective, demands substantial computational resources and time, posing a bottleneck for adapting these models to specific tasks. LoRA presented an effective solution to this problem by decomposing the update matrix during finetuing.</description>
+    </item>
+    
+    <item>
+      <title>Linkedin opensources Avro2TF</title>
+      <link>https://www.bhavinjawade.github.io/post/avrotf/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/avrotf/</guid>
+      <description>Linkedin has always been a active contributor to the opensource community. April 4th, LinkedIn announced a new opensource project Avro2TF..</description>
+    </item>
+    
+  </channel>
+</rss>

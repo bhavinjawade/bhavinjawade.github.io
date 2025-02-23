@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Venu Govindaraju on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/venu-govindaraju/</link>
+    <description>Recent content in Venu Govindaraju on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/venu-govindaraju/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ProxyFusion: Face Feature Aggregation Through Sparse Experts</title>
+      <link>https://www.bhavinjawade.github.io/publication/proxyfusion/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/proxyfusion/</guid>
+      <description>(NeurIPS 2024) The Thirty-eighth Annual Conference on Neural Information Processing Systems</description>
+    </item>
+    
+    <item>
+      <title>SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval</title>
+      <link>https://www.bhavinjawade.github.io/publication/scotwacv/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/scotwacv/</guid>
+      <description>(WACV 2025) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
+    </item>
+    
+    <item>
+      <title>NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings</title>
+      <link>https://www.bhavinjawade.github.io/publication/naploss/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/naploss/</guid>
+      <description>(WACV 2023) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
+    </item>
+    
+    <item>
+      <title>CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion *(Best Paper Award)* (Oral)</title>
+      <link>https://www.bhavinjawade.github.io/publication/conan/</link>
+      <pubDate>Thu, 16 Nov 2023 09:47:21 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/conan/</guid>
+      <description>(IJCB 2023), IEEE International Joint Conference on Biometrics</description>
+    </item>
+    
+    <item>
+      <title>Conditional Neural Aggregation Network For Unconstrained Long Range Biometric Feature Fusion</title>
+      <link>https://www.bhavinjawade.github.io/publication/tbiomconan/</link>
+      <pubDate>Mon, 16 Oct 2023 09:47:21 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/tbiomconan/</guid>
+      <description>IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 2024</description>
+    </item>
+    
+    <item>
+      <title>RealCQA: Scientific Chart Question Answering as a Test-Bed for First-Order Logic</title>
+      <link>https://www.bhavinjawade.github.io/publication/realcqa/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/realcqa/</guid>
+      <description>IEEE/IAPR International Conference on Document Analysis and Recognition (ICDAR), 2023</description>
+    </item>
+    
+    <item>
+      <title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title>
+      <link>https://www.bhavinjawade.github.io/publication/heartheflow/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid>
+      <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
+    </item>
+    
+    <item>
+      <title>Deep metric learning for computer vision: A brief overview</title>
+      <link>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</guid>
+      <description>Book Chapter - Handbook of Statistics, Edition 48</description>
+    </item>
+    
+    <item>
+      <title>RidgeBase: A Cross-Sensor Multi-Finger Contactless Fingerprint Dataset</title>
+      <link>https://www.bhavinjawade.github.io/publication/ridgebase/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/ridgebase/</guid>
+      <description>IAPR/IEEE International Joint Conference on Biometrics (IJCB), 2022</description>
+    </item>
+    
+    <item>
+      <title>AD-ViT: Attribute De-biased Vision Transformer for Long-Term Person Re-identification</title>
+      <link>https://www.bhavinjawade.github.io/publication/advit/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/advit/</guid>
+      <description>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022</description>
+    </item>
+    
+  </channel>
+</rss>

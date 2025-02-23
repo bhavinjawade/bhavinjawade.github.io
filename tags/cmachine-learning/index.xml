@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cMachine Learning on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/cmachine-learning/</link>
+    <description>Recent content in cMachine Learning on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/cmachine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Training HaarCascade Model on Microsoft Azure.</title>
+      <link>https://www.bhavinjawade.github.io/post/haarcascade/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/haarcascade/</guid>
+      <description>Using Viola Jones algorithm to detect objects in realtime</description>
+    </item>
+    
+  </channel>
+</rss>

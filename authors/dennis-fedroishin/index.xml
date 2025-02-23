@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dennis Fedroishin on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/dennis-fedroishin/</link>
+    <description>Recent content in Dennis Fedroishin on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/dennis-fedroishin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title>
+      <link>https://www.bhavinjawade.github.io/publication/heartheflow/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid>
+      <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
+    </item>
+    
+  </channel>
+</rss>
