@@ -6,10 +6,19 @@
     <description>Recent content in Machine Learning on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Understanding MatFormer - Nested Transformers for elastic inference</title>
+      <link>https://www.bhavinjawade.github.io/post/matformers/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/matformers/</guid>
+      <description>Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?</description>
+    </item>
     
     <item>
       <title>ORPO — Preference Optimization without Reference Model</title>

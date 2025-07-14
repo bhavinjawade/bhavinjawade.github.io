@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.bhavinjawade.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>AI</title>
       <link>https://www.bhavinjawade.github.io/tags/ai/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Architecture</title>
+      <link>https://www.bhavinjawade.github.io/tags/architecture/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://www.bhavinjawade.github.io/tags/deep-learning/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/tags/deep-learning/</guid>
       <description></description>
@@ -32,7 +41,7 @@
     <item>
       <title>LLM</title>
       <link>https://www.bhavinjawade.github.io/tags/llm/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/tags/llm/</guid>
       <description></description>
@@ -41,9 +50,18 @@
     <item>
       <title>Machine Learning</title>
       <link>https://www.bhavinjawade.github.io/tags/machine-learning/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://www.bhavinjawade.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>https://www.bhavinjawade.github.io/tags/transformers/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/tags/transformers/</guid>
       <description></description>
     </item>
     

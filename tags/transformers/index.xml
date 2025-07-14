@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI on Bhavin Jawade</title>
-    <link>https://www.bhavinjawade.github.io/tags/ai/</link>
-    <description>Recent content in AI on Bhavin Jawade</description>
+    <title>Transformers on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/transformers/</link>
+    <description>Recent content in Transformers on Bhavin Jawade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.bhavinjawade.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bhavinjawade.github.io/tags/transformers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.bhavinjawade.github.io/post/matformers/</guid>
       <description>Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?</description>
-    </item>
-    
-    <item>
-      <title>ORPO — Preference Optimization without Reference Model</title>
-      <link>https://www.bhavinjawade.github.io/post/orpo/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bhavinjawade.github.io/post/orpo/</guid>
-      <description>Typically, preference alignment in large language models (LLMs) requires a reference model and a warm-up phase of supervised fine-tuning. ORPO proposes a monolithic approach by integrating preference alignment directly into the supervised fine-tuning (SFT) stage, ensuring that the model can learn human preferences during instruction tuning itself.</description>
     </item>
     
   </channel>
