@@ -229,11 +229,6 @@ blockquote p:last-child {
 .space-below {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
-  .space-below {
-    margin-bottom: 10px;
-  }
-}
 
 .universal-wrapper {
   margin: 0 auto;
