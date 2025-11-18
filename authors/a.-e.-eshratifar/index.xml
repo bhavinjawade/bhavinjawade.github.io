@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. E. Eshratifar on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/a.-e.-eshratifar/</link>
+    <description>Recent content in A. E. Eshratifar on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/a.-e.-eshratifar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Systems and methods for image compositing via machine learning</title>
+      <link>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</guid>
+      <description>Systems and methods for image compositing via machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>

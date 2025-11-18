@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Eshratifar on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/e.-eshratifar/</link>
+    <description>Recent content in E. Eshratifar on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/e.-eshratifar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Systems and methods for automatically adding text content to generated images</title>
+      <link>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</guid>
+      <description>Systems and methods for automatically adding text content to generated images.</description>
+    </item>
+    
+  </channel>
+</rss>
