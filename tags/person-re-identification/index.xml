@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Person Re-identification on Bhavin Jawade</title><link>https://www.bhavinjawade.github.io/tags/person-re-identification/</link><description>Recent content in Person Re-identification on Bhavin Jawade</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Sep 2024 00:00:00 -0700</lastBuildDate><atom:link href="https://www.bhavinjawade.github.io/tags/person-re-identification/index.xml" rel="self" type="application/rss+xml"/><item><title>DIOR: Dataset for Indoor-Outdoor Reidentification Long Range 3D/2D Skeleton Gait Collection Pipeline, Semi-Automated Gait Keypoint Labeling and Baseline Evaluation Methods</title><link>https://www.bhavinjawade.github.io/publication/dior/</link><pubDate>Sun, 15 Sep 2024 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/dior/</guid><description>IEEE International Joint Conference on Biometrics (IJCB), 2024</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Person Re-identification on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/person-re-identification/</link>
+    <description>Recent content in Person Re-identification on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/person-re-identification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DIOR: Dataset for Indoor-Outdoor Reidentification Long Range 3D/2D Skeleton Gait Collection Pipeline, Semi-Automated Gait Keypoint Labeling and Baseline Evaluation Methods</title>
+      <link>https://www.bhavinjawade.github.io/publication/dior/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/dior/</guid>
+      <description>IEEE International Joint Conference on Biometrics (IJCB), 2024</description>
+    </item>
+    
+  </channel>
+</rss>

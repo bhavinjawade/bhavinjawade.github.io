@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yue Pan on Bhavin Jawade</title><link>https://www.bhavinjawade.github.io/authors/yue-pan/</link><description>Recent content in Yue Pan on Bhavin Jawade</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 -0700</lastBuildDate><atom:link href="https://www.bhavinjawade.github.io/authors/yue-pan/index.xml" rel="self" type="application/rss+xml"/><item><title>Liveness Detection Competition - Noncontact-based Fingerprint Algorithms and Systems (LivDet-2023 Noncontact Fingerprint)</title><link>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</link><pubDate>Mon, 25 Sep 2023 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</guid><description>IEEE International Joint Conference on Biometrics (IJCB), 2023</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yue Pan on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/yue-pan/</link>
+    <description>Recent content in Yue Pan on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/yue-pan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Liveness Detection Competition - Noncontact-based Fingerprint Algorithms and Systems (LivDet-2023 Noncontact Fingerprint)</title>
+      <link>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</guid>
+      <description>IEEE International Joint Conference on Biometrics (IJCB), 2023</description>
+    </item>
+    
+  </channel>
+</rss>

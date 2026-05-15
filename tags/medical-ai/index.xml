@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Medical AI on Bhavin Jawade</title><link>https://www.bhavinjawade.github.io/tags/medical-ai/</link><description>Recent content in Medical AI on Bhavin Jawade</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2026 00:00:00 -0800</lastBuildDate><atom:link href="https://www.bhavinjawade.github.io/tags/medical-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM Augmented Intervenable Multimodal Adaptor for Post-operative Complication Prediction in Lung Cancer Surgery</title><link>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</link><pubDate>Fri, 06 Mar 2026 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</guid><description>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026</description></item><item><title>Multimodal LLM-Driven Intervention for Precision Risk Prediction in Lung Cancer Surgery</title><link>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</link><pubDate>Thu, 10 Jul 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</guid><description>Clinical Cancer Research 31(13 Suppl), Abstract A054, 2025</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical AI on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/tags/medical-ai/</link>
+    <description>Recent content in Medical AI on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/tags/medical-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LLM Augmented Intervenable Multimodal Adaptor for Post-operative Complication Prediction in Lung Cancer Surgery</title>
+      <link>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</guid>
+      <description>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026</description>
+    </item>
+    
+    <item>
+      <title>Multimodal LLM-Driven Intervention for Precision Risk Prediction in Lung Cancer Surgery</title>
+      <link>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</guid>
+      <description>Clinical Cancer Research 31(13 Suppl), Abstract A054, 2025</description>
+    </item>
+    
+  </channel>
+</rss>

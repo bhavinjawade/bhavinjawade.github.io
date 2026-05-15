@@ -1,1 +1,231 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bhavin Jawade</title><link>https://www.bhavinjawade.github.io/authors/bhavin-jawade/</link><description>Recent content on Bhavin Jawade</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2026 00:00:00 -0800</lastBuildDate><atom:link href="https://www.bhavinjawade.github.io/authors/bhavin-jawade/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM Augmented Intervenable Multimodal Adaptor for Post-operative Complication Prediction in Lung Cancer Surgery</title><link>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</link><pubDate>Fri, 06 Mar 2026 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</guid><description>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026</description></item><item><title>Ridgeformer: Mutli-Stage Contrastive Training For Fine-grained Cross-Domain Fingerprint Recognition</title><link>https://www.bhavinjawade.github.io/publication/ridgeformer/</link><pubDate>Mon, 15 Sep 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/ridgeformer/</guid><description>IEEE International Conference on Image Processing (ICIP), 2025</description></item><item><title>Understanding MatFormer - Nested Transformers for elastic inference</title><link>https://www.bhavinjawade.github.io/post/matformers/</link><pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate><guid>https://www.bhavinjawade.github.io/post/matformers/</guid><description>Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?</description></item><item><title>Multimodal LLM-Driven Intervention for Precision Risk Prediction in Lung Cancer Surgery</title><link>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</link><pubDate>Thu, 10 Jul 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</guid><description>Clinical Cancer Research 31(13 Suppl), Abstract A054, 2025</description></item><item><title>Audio-Visual Representation Learning For Lip-Sync Estimation Through Ranking Augmented Contrastive Training</title><link>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</link><pubDate>Sun, 06 Apr 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</guid><description>(ICASSP 2025) IEEE International Conference on Acoustics, Speech, and Signal Processing 2025</description></item><item><title>SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval</title><link>https://www.bhavinjawade.github.io/publication/scotwacv/</link><pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/scotwacv/</guid><description>(WACV 2025) IEEE/CVF Winter Conference on Applications of Computer Vision</description></item><item><title>ORPO — Preference Optimization without Reference Model</title><link>https://www.bhavinjawade.github.io/post/orpo/</link><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.bhavinjawade.github.io/post/orpo/</guid><description>Typically, preference alignment in large language models (LLMs) requires a reference model and a warm-up phase of supervised fine-tuning. ORPO proposes a monolithic approach by integrating preference alignment directly into the supervised fine-tuning (SFT) stage, ensuring that the model can learn human preferences during instruction tuning itself.</description></item><item><title>Multimodal Contrastive Models Through Zero-Shot Training</title><link>https://www.bhavinjawade.github.io/publication/phd-thesis/</link><pubDate>Wed, 01 Jan 2025 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/phd-thesis/</guid><description>Ph.D. dissertation, State University of New York at Buffalo, 2025</description></item><item><title>DIOR: Dataset for Indoor-Outdoor Reidentification Long Range 3D/2D Skeleton Gait Collection Pipeline, Semi-Automated Gait Keypoint Labeling and Baseline Evaluation Methods</title><link>https://www.bhavinjawade.github.io/publication/dior/</link><pubDate>Sun, 15 Sep 2024 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/dior/</guid><description>IEEE International Joint Conference on Biometrics (IJCB), 2024</description></item><item><title>ProxyFusion: Face Feature Aggregation Through Sparse Experts</title><link>https://www.bhavinjawade.github.io/publication/proxyfusion/</link><pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/proxyfusion/</guid><description>(NeurIPS 2024) The Thirty-eighth Annual Conference on Neural Information Processing Systems</description></item><item><title>GestSpoof: Gesture Based Spatio-Temporal Representation Learning for Robust Fingerprint Presentation Attack Detection</title><link>https://www.bhavinjawade.github.io/publication/gestspoof/</link><pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/gestspoof/</guid><description>IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2024</description></item><item><title>NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings</title><link>https://www.bhavinjawade.github.io/publication/naploss/</link><pubDate>Mon, 04 Dec 2023 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/naploss/</guid><description>(WACV 2023) IEEE/CVF Winter Conference on Applications of Computer Vision</description></item><item><title>CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion *(Best Paper Award)* (Oral)</title><link>https://www.bhavinjawade.github.io/publication/conan/</link><pubDate>Thu, 16 Nov 2023 09:47:21 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/conan/</guid><description>(IJCB 2023), IEEE International Joint Conference on Biometrics</description></item><item><title>Attention Guided Multi-Attribute Architecture for Deepfake Detection</title><link>https://www.bhavinjawade.github.io/publication/deepfake-attention/</link><pubDate>Fri, 03 Nov 2023 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/deepfake-attention/</guid><description>IEEE Western New York Image and Signal Processing Workshop (WNYISPW), 2023</description></item><item><title>Conditional Neural Aggregation Network For Unconstrained Long Range Biometric Feature Fusion</title><link>https://www.bhavinjawade.github.io/publication/tbiomconan/</link><pubDate>Mon, 16 Oct 2023 09:47:21 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/tbiomconan/</guid><description>IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 2024</description></item><item><title>Liveness Detection Competition - Noncontact-based Fingerprint Algorithms and Systems (LivDet-2023 Noncontact Fingerprint)</title><link>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</link><pubDate>Mon, 25 Sep 2023 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</guid><description>IEEE International Joint Conference on Biometrics (IJCB), 2023</description></item><item><title>RealCQA: Scientific Chart Question Answering as a Test-Bed for First-Order Logic</title><link>https://www.bhavinjawade.github.io/publication/realcqa/</link><pubDate>Sat, 19 Aug 2023 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/realcqa/</guid><description>IEEE/IAPR International Conference on Document Analysis and Recognition (ICDAR), 2023</description></item><item><title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title><link>https://www.bhavinjawade.github.io/publication/heartheflow/</link><pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid><description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description></item><item><title>Deep metric learning for computer vision: A brief overview</title><link>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</link><pubDate>Tue, 03 Jan 2023 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</guid><description>Book Chapter - Handbook of Statistics, Edition 48</description></item><item><title>RidgeBase: A Cross-Sensor Multi-Finger Contactless Fingerprint Dataset</title><link>https://www.bhavinjawade.github.io/publication/ridgebase/</link><pubDate>Mon, 15 Aug 2022 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/ridgebase/</guid><description>IAPR/IEEE International Joint Conference on Biometrics (IJCB), 2022</description></item><item><title>AD-ViT: Attribute De-biased Vision Transformer for Long-Term Person Re-identification</title><link>https://www.bhavinjawade.github.io/publication/advit/</link><pubDate>Fri, 15 Jul 2022 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/publication/advit/</guid><description>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022</description></item><item><title>Multi Loss Fusion For Matching Smartphone Captured Contactless Finger Images</title><link>https://www.bhavinjawade.github.io/publication/multiloss/</link><pubDate>Wed, 15 Dec 2021 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/multiloss/</guid><description>IEEE International Workshop On Forensics and Security (WIFS), 2021</description></item><item><title>Azure For App Developers</title><link>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</link><pubDate>Sun, 16 Jun 2019 10:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</guid><description>Azure for App Developers</description></item><item><title>Low Computation in-device geofencing Algorithm using hierarchy based searching for offline usage</title><link>https://www.bhavinjawade.github.io/publication/geofencing/</link><pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/publication/geofencing/</guid><description>IEEE International Conference on Inventive Computation Technologies (ICICT), 2018</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/bhavin-jawade/</link>
+    <description>Recent content on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/bhavin-jawade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LLM Augmented Intervenable Multimodal Adaptor for Post-operative Complication Prediction in Lung Cancer Surgery</title>
+      <link>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/miracle-wacv2026/</guid>
+      <description>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026</description>
+    </item>
+    
+    <item>
+      <title>Ridgeformer: Mutli-Stage Contrastive Training For Fine-grained Cross-Domain Fingerprint Recognition</title>
+      <link>https://www.bhavinjawade.github.io/publication/ridgeformer/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/ridgeformer/</guid>
+      <description>IEEE International Conference on Image Processing (ICIP), 2025</description>
+    </item>
+    
+    <item>
+      <title>Understanding MatFormer - Nested Transformers for elastic inference</title>
+      <link>https://www.bhavinjawade.github.io/post/matformers/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/matformers/</guid>
+      <description>Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?</description>
+    </item>
+    
+    <item>
+      <title>Multimodal LLM-Driven Intervention for Precision Risk Prediction in Lung Cancer Surgery</title>
+      <link>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/aacr-lung-cancer-risk/</guid>
+      <description>Clinical Cancer Research 31(13 Suppl), Abstract A054, 2025</description>
+    </item>
+    
+    <item>
+      <title>Audio-Visual Representation Learning For Lip-Sync Estimation Through Ranking Augmented Contrastive Training</title>
+      <link>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/netlfix_rsms/</guid>
+      <description>(ICASSP 2025) IEEE International Conference on Acoustics, Speech, and Signal Processing 2025</description>
+    </item>
+    
+    <item>
+      <title>SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval</title>
+      <link>https://www.bhavinjawade.github.io/publication/scotwacv/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/scotwacv/</guid>
+      <description>(WACV 2025) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
+    </item>
+    
+    <item>
+      <title>ORPO — Preference Optimization without Reference Model</title>
+      <link>https://www.bhavinjawade.github.io/post/orpo/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/post/orpo/</guid>
+      <description>Typically, preference alignment in large language models (LLMs) requires a reference model and a warm-up phase of supervised fine-tuning. ORPO proposes a monolithic approach by integrating preference alignment directly into the supervised fine-tuning (SFT) stage, ensuring that the model can learn human preferences during instruction tuning itself.</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Contrastive Models Through Zero-Shot Training</title>
+      <link>https://www.bhavinjawade.github.io/publication/phd-thesis/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/phd-thesis/</guid>
+      <description>Ph.D. dissertation, State University of New York at Buffalo, 2025</description>
+    </item>
+    
+    <item>
+      <title>DIOR: Dataset for Indoor-Outdoor Reidentification Long Range 3D/2D Skeleton Gait Collection Pipeline, Semi-Automated Gait Keypoint Labeling and Baseline Evaluation Methods</title>
+      <link>https://www.bhavinjawade.github.io/publication/dior/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/dior/</guid>
+      <description>IEEE International Joint Conference on Biometrics (IJCB), 2024</description>
+    </item>
+    
+    <item>
+      <title>ProxyFusion: Face Feature Aggregation Through Sparse Experts</title>
+      <link>https://www.bhavinjawade.github.io/publication/proxyfusion/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/proxyfusion/</guid>
+      <description>(NeurIPS 2024) The Thirty-eighth Annual Conference on Neural Information Processing Systems</description>
+    </item>
+    
+    <item>
+      <title>GestSpoof: Gesture Based Spatio-Temporal Representation Learning for Robust Fingerprint Presentation Attack Detection</title>
+      <link>https://www.bhavinjawade.github.io/publication/gestspoof/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/gestspoof/</guid>
+      <description>IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2024</description>
+    </item>
+    
+    <item>
+      <title>NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings</title>
+      <link>https://www.bhavinjawade.github.io/publication/naploss/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/naploss/</guid>
+      <description>(WACV 2023) IEEE/CVF Winter Conference on Applications of Computer Vision</description>
+    </item>
+    
+    <item>
+      <title>CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion *(Best Paper Award)* (Oral)</title>
+      <link>https://www.bhavinjawade.github.io/publication/conan/</link>
+      <pubDate>Thu, 16 Nov 2023 09:47:21 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/conan/</guid>
+      <description>(IJCB 2023), IEEE International Joint Conference on Biometrics</description>
+    </item>
+    
+    <item>
+      <title>Attention Guided Multi-Attribute Architecture for Deepfake Detection</title>
+      <link>https://www.bhavinjawade.github.io/publication/deepfake-attention/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/deepfake-attention/</guid>
+      <description>IEEE Western New York Image and Signal Processing Workshop (WNYISPW), 2023</description>
+    </item>
+    
+    <item>
+      <title>Conditional Neural Aggregation Network For Unconstrained Long Range Biometric Feature Fusion</title>
+      <link>https://www.bhavinjawade.github.io/publication/tbiomconan/</link>
+      <pubDate>Mon, 16 Oct 2023 09:47:21 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/tbiomconan/</guid>
+      <description>IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 2024</description>
+    </item>
+    
+    <item>
+      <title>Liveness Detection Competition - Noncontact-based Fingerprint Algorithms and Systems (LivDet-2023 Noncontact Fingerprint)</title>
+      <link>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/livdet-2023-noncontact/</guid>
+      <description>IEEE International Joint Conference on Biometrics (IJCB), 2023</description>
+    </item>
+    
+    <item>
+      <title>RealCQA: Scientific Chart Question Answering as a Test-Bed for First-Order Logic</title>
+      <link>https://www.bhavinjawade.github.io/publication/realcqa/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/realcqa/</guid>
+      <description>IEEE/IAPR International Conference on Document Analysis and Recognition (ICDAR), 2023</description>
+    </item>
+    
+    <item>
+      <title>Hear The Flow: Optical Flow-Based Self-Supervised Visual Sound Source Localization</title>
+      <link>https://www.bhavinjawade.github.io/publication/heartheflow/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/heartheflow/</guid>
+      <description>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022</description>
+    </item>
+    
+    <item>
+      <title>Deep metric learning for computer vision: A brief overview</title>
+      <link>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/dml_book_chapter/</guid>
+      <description>Book Chapter - Handbook of Statistics, Edition 48</description>
+    </item>
+    
+    <item>
+      <title>RidgeBase: A Cross-Sensor Multi-Finger Contactless Fingerprint Dataset</title>
+      <link>https://www.bhavinjawade.github.io/publication/ridgebase/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/ridgebase/</guid>
+      <description>IAPR/IEEE International Joint Conference on Biometrics (IJCB), 2022</description>
+    </item>
+    
+    <item>
+      <title>AD-ViT: Attribute De-biased Vision Transformer for Long-Term Person Re-identification</title>
+      <link>https://www.bhavinjawade.github.io/publication/advit/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/advit/</guid>
+      <description>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022</description>
+    </item>
+    
+    <item>
+      <title>Multi Loss Fusion For Matching Smartphone Captured Contactless Finger Images</title>
+      <link>https://www.bhavinjawade.github.io/publication/multiloss/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/multiloss/</guid>
+      <description>IEEE International Workshop On Forensics and Security (WIFS), 2021</description>
+    </item>
+    
+    <item>
+      <title>Azure For App Developers</title>
+      <link>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</link>
+      <pubDate>Sun, 16 Jun 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/talk/azureforappdevelopers/</guid>
+      <description>Azure for App Developers</description>
+    </item>
+    
+    <item>
+      <title>Low Computation in-device geofencing Algorithm using hierarchy based searching for offline usage</title>
+      <link>https://www.bhavinjawade.github.io/publication/geofencing/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/publication/geofencing/</guid>
+      <description>IEEE International Conference on Inventive Computation Technologies (ICICT), 2018</description>
+    </item>
+    
+  </channel>
+</rss>

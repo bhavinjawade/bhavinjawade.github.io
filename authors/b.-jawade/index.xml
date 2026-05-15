@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B. Jawade on Bhavin Jawade</title><link>https://www.bhavinjawade.github.io/authors/b.-jawade/</link><description>Recent content in B. Jawade on Bhavin Jawade</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Mar 2026 00:00:00 -0700</lastBuildDate><atom:link href="https://www.bhavinjawade.github.io/authors/b.-jawade/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio-visual representation learning for lip-sync estimation through ranking augmented contrastive training</title><link>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-multistage/</link><pubDate>Thu, 12 Mar 2026 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-multistage/</guid><description>US Patent Application US 20260073670 A1 (Application No. US 19/319,398)</description></item><item><title>Audio-visual representation learning for lip-sync estimation through ranking augmented contrastive training</title><link>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-ranking/</link><pubDate>Thu, 12 Mar 2026 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-ranking/</guid><description>US Patent Application US 20260073669 A1 (Application No. US 19/319,350)</description></item><item><title>Systems and methods for automatically adding text content to generated images</title><link>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</link><pubDate>Tue, 24 Feb 2026 00:00:00 -0800</pubDate><guid>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</guid><description>US Patent US 12,561,867 B2 (Application No. US 18/512,871)</description></item><item><title>Systems and methods for image compositing via machine learning</title><link>https://www.bhavinjawade.github.io/patent/image-compositing-diffusion/</link><pubDate>Thu, 09 Oct 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/patent/image-compositing-diffusion/</guid><description>US Patent Application US 20250315922 A1 (Application No. US 18/626,427)</description></item><item><title>Systems and methods for image compositing via machine learning</title><link>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</link><pubDate>Thu, 18 Sep 2025 00:00:00 -0700</pubDate><guid>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</guid><description>US Patent Application US 20250292368 A1 (Application No. US 19/072,081)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. Jawade on Bhavin Jawade</title>
+    <link>https://www.bhavinjawade.github.io/authors/b.-jawade/</link>
+    <description>Recent content in B. Jawade on Bhavin Jawade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.bhavinjawade.github.io/authors/b.-jawade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Audio-visual representation learning for lip-sync estimation through ranking augmented contrastive training</title>
+      <link>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-multistage/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-multistage/</guid>
+      <description>US Patent Application US 20260073670 A1 (Application No. US 19/319,398)</description>
+    </item>
+    
+    <item>
+      <title>Audio-visual representation learning for lip-sync estimation through ranking augmented contrastive training</title>
+      <link>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-ranking/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/audio-visual-lipsync-ranking/</guid>
+      <description>US Patent Application US 20260073669 A1 (Application No. US 19/319,350)</description>
+    </item>
+    
+    <item>
+      <title>Systems and methods for automatically adding text content to generated images</title>
+      <link>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0800</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/auto-text-to-images/</guid>
+      <description>US Patent US 12,561,867 B2 (Application No. US 18/512,871)</description>
+    </item>
+    
+    <item>
+      <title>Systems and methods for image compositing via machine learning</title>
+      <link>https://www.bhavinjawade.github.io/patent/image-compositing-diffusion/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/image-compositing-diffusion/</guid>
+      <description>US Patent Application US 20250315922 A1 (Application No. US 18/626,427)</description>
+    </item>
+    
+    <item>
+      <title>Systems and methods for image compositing via machine learning</title>
+      <link>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.bhavinjawade.github.io/patent/image-compositing-ml/</guid>
+      <description>US Patent Application US 20250292368 A1 (Application No. US 19/072,081)</description>
+    </item>
+    
+  </channel>
+</rss>
