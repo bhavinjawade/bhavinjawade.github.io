@@ -788,9 +788,9 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
   }
 
   .wg-experience .exp-heading-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content;
     align-items: flex-start;
-    justify-content: space-between;
     gap: 1rem;
   }
 
@@ -799,8 +799,9 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
   }
 
   .wg-experience .exp-meta {
-    flex: 0 0 auto;
-    max-width: 55%;
+    justify-self: end;
+    max-width: none;
+    white-space: nowrap;
   }
 
   .wg-experience .exp-description {
@@ -832,6 +833,7 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
     .wg-experience .exp-meta {
       margin-top: 0.5rem;
       max-width: 100%;
+      white-space: normal;
     }
   }
 </style>
