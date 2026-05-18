@@ -766,6 +766,7 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
 
 <style>
   .wg-experience .exp-company-logo {
+    flex: 0 0 auto;
     width: 54px;
     height: 54px;
     object-fit: contain;
@@ -775,10 +776,42 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
     padding: 6px;
   }
 
+  .wg-experience .exp-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .wg-experience .exp-card-content {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .wg-experience .exp-heading-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .wg-experience .exp-heading {
+    min-width: 0;
+  }
+
+  .wg-experience .exp-meta {
+    flex: 0 0 auto;
+    max-width: 55%;
+  }
+
+  .wg-experience .exp-description {
+    margin-top: 1.25rem;
+    max-width: none;
+  }
+
   @media (max-width: 575.98px) {
     .wg-experience .exp-meta {
-      float: none !important;
       margin-bottom: 0.5rem;
+      max-width: 100%;
     }
 
     .wg-experience .exp-meta .text-right {
@@ -788,6 +821,17 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
     .wg-experience .exp-company-logo {
       width: 46px;
       height: 46px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .wg-experience .exp-heading-row {
+      display: block;
+    }
+
+    .wg-experience .exp-meta {
+      margin-top: 0.5rem;
+      max-width: 100%;
     }
   }
 </style>
@@ -822,28 +866,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                Feb 2025 –
-                
-                  Present
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Netflix Research | Los Gatos, CA</div>
+              <img class="exp-company-logo" src="/home/netflix_logo.png" alt="Netflix Research logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/netflix_logo.png" alt="Netflix Research logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://research.netflix.com/" target="_blank" rel="noopener">Netflix Research</a></h4>
-                <div class="card-text">Large Multimodal Language Model Research. Reward Modelling, Contrastive Learning, Finetuning for Agents</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://research.netflix.com/" target="_blank" rel="noopener">Netflix Research</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      Feb 2025 –
+                      
+                        Present
+                      
+                    </div>
+                    
+                    <div class="text-right">Netflix Research | Los Gatos, CA</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">Large Multimodal Language Model Research. Reward Modelling, Contrastive Learning, Finetuning for Agents</div>
               </div>
             </div>
           </div>
@@ -870,28 +918,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                May 2024 –
-                
-                  Dec 2024
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Netflix, Localization Team | Los Gatos, CA</div>
+              <img class="exp-company-logo" src="/home/netflix_logo.png" alt="Netflix Research logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/netflix_logo.png" alt="Netflix Research logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://research.netflix.com/" target="_blank" rel="noopener">Netflix Research</a></h4>
-                <div class="card-text">Working on multimodal contrastive learning for fine-grained audio-visual sync estimation.</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://research.netflix.com/" target="_blank" rel="noopener">Netflix Research</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      May 2024 –
+                      
+                        Dec 2024
+                      
+                    </div>
+                    
+                    <div class="text-right">Netflix, Localization Team | Los Gatos, CA</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">Working on multimodal contrastive learning for fine-grained audio-visual sync estimation.</div>
               </div>
             </div>
           </div>
@@ -918,28 +970,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                May 2023 –
-                
-                  Dec 2023
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Yahoo, Visual Intelligence Team | San Francisco</div>
+              <img class="exp-company-logo" src="/home/yahoo_logo.png" alt="Yahoo Research logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/yahoo_logo.png" alt="Yahoo Research logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://research.yahoo.com/" target="_blank" rel="noopener">Yahoo Research</a></h4>
-                <div class="card-text">Working as Research intern in visual intelligence team to solve multi-modal retrieval problem.</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://research.yahoo.com/" target="_blank" rel="noopener">Yahoo Research</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      May 2023 –
+                      
+                        Dec 2023
+                      
+                    </div>
+                    
+                    <div class="text-right">Yahoo, Visual Intelligence Team | San Francisco</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">Working as Research intern in visual intelligence team to solve multi-modal retrieval problem.</div>
               </div>
             </div>
           </div>
@@ -966,28 +1022,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                May 2022 –
-                
-                  Dec 2022
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Adobe, Media Intelligence Lab | San Jose, CA</div>
+              <img class="exp-company-logo" src="/home/adobe_logo.png" alt="Adobe Research logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/adobe_logo.png" alt="Adobe Research logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://research.adobe.com/" target="_blank" rel="noopener">Adobe Research</a></h4>
-                <div class="card-text">Designed novel pre-training strategies and transformer architectures for large scale vision-language contrastive pretraining on 100M scale datasets. Evaluation on downstream tasks such as zero-shot image classification, text-image retrieval, object-detection etc.</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist Intern</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://research.adobe.com/" target="_blank" rel="noopener">Adobe Research</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      May 2022 –
+                      
+                        Dec 2022
+                      
+                    </div>
+                    
+                    <div class="text-right">Adobe, Media Intelligence Lab | San Jose, CA</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">Designed novel pre-training strategies and transformer architectures for large scale vision-language contrastive pretraining on 100M scale datasets. Evaluation on downstream tasks such as zero-shot image classification, text-image retrieval, object-detection etc.</div>
               </div>
             </div>
           </div>
@@ -1014,28 +1074,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                Jun 2020 –
-                
-                  Present
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Buffalo</div>
+              <img class="exp-company-logo" src="/home/ub_logo.png" alt="Department of Computer Science, University at Buffalo logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/ub_logo.png" alt="Department of Computer Science, University at Buffalo logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Assistant</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://www.buffalo.edu/cubs.html" target="_blank" rel="noopener">Department of Computer Science, University at Buffalo</a></h4>
-                <div class="card-text">I am Graduate Research Assitant (SUNY) at CUBS lab at University at Buffalo, State University of New York. I am working with Prof. Srirangaraj (Ranga) Setlur and Prof. Venu Govindaraju on an NSF funded project called Made@UB ML toolkit. ML Toolkit is an easy-to-use GUI based application, developed to reduce the time it takes to build prototypes for ML models as well as experiment with various feature extraction methods available.</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Assistant</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://www.buffalo.edu/cubs.html" target="_blank" rel="noopener">Department of Computer Science, University at Buffalo</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      Jun 2020 –
+                      
+                        Present
+                      
+                    </div>
+                    
+                    <div class="text-right">Buffalo</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">I am Graduate Research Assitant (SUNY) at CUBS lab at University at Buffalo, State University of New York. I am working with Prof. Srirangaraj (Ranga) Setlur and Prof. Venu Govindaraju on an NSF funded project called Made@UB ML toolkit. ML Toolkit is an easy-to-use GUI based application, developed to reduce the time it takes to build prototypes for ML models as well as experiment with various feature extraction methods available.</div>
               </div>
             </div>
           </div>
@@ -1062,28 +1126,32 @@ Feb 2021 - Won the Maple Ridge Hackathon organized Govt. British Comlumbia. -->
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <div class="float-right text-muted exp-meta">
-              <div class="text-right">
-                Jul 2019 –
-                
-                  Dec 2020
-                
-              </div>
+            <div class="exp-card-header">
               
-              <div class="text-right">Pune</div>
+              <img class="exp-company-logo" src="/home/persistent_logo.png" alt="Persistent Systems logo" loading="lazy">
               
-            </div>
 
-            <div class="media align-items-start">
-              
-              <div class="mr-3">
-                <img class="exp-company-logo" src="/home/persistent_logo.png" alt="Persistent Systems logo" loading="lazy">
-              </div>
-              
-              <div class="media-body">
-                <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Engineer - Machine Learning</h4>
-                <h4 class="card-title exp-company text-muted my-0"><a href="https://persistent.com" target="_blank" rel="noopener">Persistent Systems</a></h4>
-                <div class="card-text">At Persistent Systems we build software that drives the business of our customers; enterprises and software product companies with software at the core of their digital transformation.</div>
+              <div class="exp-card-content">
+                <div class="exp-heading-row">
+                  <div class="exp-heading">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Engineer - Machine Learning</h4>
+                    <h4 class="card-title exp-company text-muted my-0"><a href="https://persistent.com" target="_blank" rel="noopener">Persistent Systems</a></h4>
+                  </div>
+
+                  <div class="text-muted exp-meta">
+                    <div class="text-right">
+                      Jul 2019 –
+                      
+                        Dec 2020
+                      
+                    </div>
+                    
+                    <div class="text-right">Pune</div>
+                    
+                  </div>
+                </div>
+
+                <div class="card-text exp-description">At Persistent Systems we build software that drives the business of our customers; enterprises and software product companies with software at the core of their digital transformation.</div>
               </div>
             </div>
           </div>
