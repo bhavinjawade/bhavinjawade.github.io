@@ -608,8 +608,44 @@
     <p>I am a Research Scientist at <a href="https://research.netflix.com/">Netflix Research</a>, working on Multimodal Large Language Models, Reward Modeling, and Reasoning. I did my Ph.D. in Computer Science from the University at Buffalo, where I was advised by <a href="https://www.buffalo.edu/cubs/members/venu-govindaraju.html">Dr. Venu Govindaraju</a>. During my Ph.D., I was a part of the <a href="https://www.buffalo.edu/cubs.html">Center for Unified Biometrics and Sensors (CUBS) Lab</a>.</p>
 <p>Previously, I was a research scientist intern at Netflix Research, Yahoo Research, and Adobe Research. My doctoral research primarily focused on Multimodal Contrastive Learning, Deep Metric Learning, and Deep Feature Fusion. My Ph.D. was funded by the IARPA BRIAR, NSF AI Institute, Qualcomm, NSF CITeR, NSF DiBBS, and NSF S&amp;CC programs.</p>
 <p>Among some notable achievements, I received the IEEE Best Paper Award at <a href="https://ijcb2023.ieee-biometrics.org/award-winners/">IJCB 2023</a>, the <a href="https://engineering.buffalo.edu/home/news/seas.host.html/content/shared/engineering/home/articles/news-articles/2022/new-competition-spurs-computer-science-solutions-to-real-world-p.detail.html">Graduate Leadership Award (2023) and the Russell Agrusa Research Innovation Award (2021)</a>, as well as the Best CSE Ph.D. Poster and SEAS Ph.D. Poster Awards in 2022.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Glad to share that our paper ProxyFusion got accepted at NeurIPS 2024 <a href="https://twitter.com/NeurIPSConf">@NeurIPSConf</a> <a href="https://twitter.com/hashtag/neurips2024">#neurips2024</a> <a href="https://twitter.com/hashtag/NeurIPS">#NeurIPS</a><br>We proposed a near linear time approach for feature aggregation through sparse expert networks.</p>&mdash; Bhavin Jawade (@BhavinJawade) <a href="https://twitter.com/BhavinJawade/status/1839025072776036623">September 25, 2024</a></blockquote>
+<div id="research-posts-carousel" class="carousel slide" data-ride="carousel" data-interval="false" aria-label="Research posts">
+  <ol class="carousel-indicators">
+    <li data-target="#research-posts-carousel" data-slide-to="0" class="active" aria-label="Research post 1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Glad to share that our paper ProxyFusion got accepted at NeurIPS 2024 <a href="https://twitter.com/NeurIPSConf">@NeurIPSConf</a> <a href="https://twitter.com/hashtag/neurips2024">#neurips2024</a> <a href="https://twitter.com/hashtag/NeurIPS">#NeurIPS</a><br>We proposed a near linear time approach for feature aggregation through sparse expert networks.</p>&mdash; Bhavin Jawade (@BhavinJawade) <a href="https://twitter.com/BhavinJawade/status/1839025072776036623">September 25, 2024</a></blockquote>
+    </div>
+    <!-- Add each future X/Twitter post as another .carousel-item here, then add its matching indicator above. -->
+  </div>
+  <a class="carousel-control-prev" href="#research-posts-carousel" role="button" data-slide="prev" aria-label="Previous research post">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#research-posts-carousel" role="button" data-slide="next" aria-label="Next research post">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<style>
+#research-posts-carousel { margin: 2rem 0; min-height: 560px; }
+#research-posts-carousel .twitter-tweet { margin: 0 auto !important; }
+#research-posts-carousel .carousel-control-prev, #research-posts-carousel .carousel-control-next { width: 8%; filter: invert(1); }
+#research-posts-carousel .carousel-indicators li { background-color: #2962ff; }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var carousel = document.getElementById('research-posts-carousel');
+  if (!carousel) return;
+  if (carousel.querySelectorAll('.carousel-item').length < 2) {
+    carousel.querySelector('.carousel-control-prev').style.display = 'none';
+    carousel.querySelector('.carousel-control-next').style.display = 'none';
+    carousel.querySelector('.carousel-indicators').style.display = 'none';
+  }
+  $(carousel).on('slid.bs.carousel', function (event) {
+    if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(event.relatedTarget);
+  });
+});
+</script>
 <div style="border: 2px dashed #ffffff;
     padding: 2%;
     border-radius: 11px;
