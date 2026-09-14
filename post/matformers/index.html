@@ -26,9 +26,7 @@
   
   
   
-    
-  
-  <meta name="description" content="Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?">
+  <meta name="description" content="Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. …">
 
   
   <link rel="alternate" hreflang="en-us" href="https://bhavinjawade.github.io/post/matformers/">
@@ -140,10 +138,14 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
+  <meta property="twitter:site" content="@BhavinJawade">
+  <meta property="twitter:creator" content="@BhavinJawade">
+  
   <meta property="og:site_name" content="Bhavin Jawade">
   <meta property="og:url" content="https://bhavinjawade.github.io/post/matformers/">
   <meta property="og:title" content="Understanding MatFormer - Nested Transformers for elastic inference | Bhavin Jawade">
-  <meta property="og:description" content="Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. But one of the more interesting parts in the announcement is that E2B isn’t just a smaller sibling trained separately (or distilled) like other family of models we have previously seen (7B, 11B, 70B etc) — it’s actually a sub-model within E4B. Even more intriguing, the release mentioned that it’s possible to “mix and match” layers between the two, depending on memory and compute constraints to create even more models of different sizes. How was such a modularity achieved? How are different sized models trained simultaneously?"><meta property="og:image" content="https://bhavinjawade.github.io/post/matformers/featured.png">
+  <meta property="og:description" content="Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. …"><meta property="og:image" content="https://bhavinjawade.github.io/post/matformers/featured.png">
+  <meta property="og:type" content="article">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2025-07-13T00:00:00&#43;00:00">
@@ -153,6 +155,11 @@
 
   
 
+  
+  
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://bhavinjawade.github.io/post/matformers/#article","@type":"BlogPosting","author":[{"@id":"https://bhavinjawade.github.io/#person","@type":"Person","name":"Bhavin Jawade","url":"https://bhavinjawade.github.io/"}],"dateModified":"2025-07-13T00:00:00Z","datePublished":"2025-07-13T00:00:00Z","description":"Google recently released the Gemma 3n models — E4B and E2B. The models are packed with novel components and features from PLEs, ASR and AST, MobileNet-V5 for vision etc. …","headline":"Understanding MatFormer - Nested Transformers for elastic inference","image":"https://bhavinjawade.github.io/post/matformers/featured.png","inLanguage":"en","mainEntityOfPage":"https://bhavinjawade.github.io/post/matformers/","publisher":{"@id":"https://bhavinjawade.github.io/#person"},"url":"https://bhavinjawade.github.io/post/matformers/","wordCount":2334},{"@id":"https://bhavinjawade.github.io/#person","@type":"Person","alumniOf":{"@type":"CollegeOrUniversity","name":"University at Buffalo, SUNY","url":"https://www.buffalo.edu/"},"description":"Bhavin Jawade, Ph.D., is a Senior Research Scientist at Netflix working on multimodal LLMs, post-training, reward modeling, and evaluation.","image":"https://bhavinjawade.github.io/img/bhavin-jawade.png","jobTitle":"Senior Research Scientist","knowsAbout":["Multimodal large language models","LLM post-training","Reward modeling","Model evaluation","Computer vision"],"name":"Bhavin Jawade","sameAs":["https://scholar.google.com/citations?hl=en\u0026user=H2HDUoUAAAAJ","https://www.linkedin.com/in/bhavinjawade","https://github.com/bhavinjawade","https://x.com/BhavinJawade","https://bhavinjawade.medium.com/"],"url":"https://bhavinjawade.github.io/","worksFor":{"@type":"Organization","name":"Netflix","url":"https://research.netflix.com/"}},{"@id":"https://bhavinjawade.github.io/post/matformers/#breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://bhavinjawade.github.io/","name":"Home","position":1},{"@type":"ListItem","item":"https://bhavinjawade.github.io/post/","name":"Posts","position":2},{"@type":"ListItem","item":"https://bhavinjawade.github.io/post/matformers/","name":"Understanding MatFormer - Nested Transformers for elastic inference","position":3}]}]}</script>
+  
+  <meta name="robots" content="max-image-preview:large">
   
 
   <title>Understanding MatFormer - Nested Transformers for elastic inference | Bhavin Jawade</title>
@@ -239,7 +246,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts">
+          <a class="nav-link" href="/post/">
             
             <span>Posts</span>
             
@@ -279,7 +286,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#publications">
+          <a class="nav-link" href="/publication/">
             
             <span>Publications</span>
             
@@ -298,7 +305,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#talks">
+          <a class="nav-link" href="/talk/">
             
             <span>Talks</span>
             
@@ -317,7 +324,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#patents">
+          <a class="nav-link" href="/patent/">
             
             <span>Patents</span>
             
