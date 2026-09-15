@@ -611,6 +611,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/yahoo/SCOT" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -889,6 +897,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/yahoo/SCOT" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -955,7 +971,31 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style"><h2 id="compositional-retrieval-without-curated-triplets">Compositional retrieval without curated triplets</h2>
+<p>Imagine searching a product catalog with a reference image and an edit: <em>&ldquo;I want a similar dress, but yellow with fringe.&quot;</em> The goal is to retrieve the image that satisfies both parts of the query: the visual appearance of the reference and the requested change. This is <strong>compositional image retrieval (CIR)</strong>.</p>
+<p>Most CIR systems learn from expensive, domain-specific triplets: a reference image, an edit instruction, and the exact target image. That supervision is difficult to curate and often fails to transfer to an unfamiliar domain. <strong>SCOT</strong> asks a simpler question: can we learn this behavior from the image-caption pairs that already exist at scale?</p>
+<p><img src="/publication/scotwacv/images/scot-overview.png" alt="Traditional supervised CIR versus SCOT&rsquo;s image-caption-pair training."></p>
+<p><em>Figure 1. Traditional CIR needs annotated image-text-image triplets. SCOT learns from existing image-caption pairs and is designed to generalize to unseen domains. Adapted from the paper.</em></p>
+<h2 id="the-key-idea-let-language-create-the-training-target">The key idea: let language create the training target</h2>
+<p>SCOT starts with an ordinary image and its caption. A frozen large language model rewrites that caption in two complementary ways:</p>
+<ol>
+<li>it produces a short <strong>modification</strong>, such as “replace the horses with motorbikes”; and</li>
+<li>it produces the <strong>modified caption</strong>, such as “a woman and man riding two motorbikes in the jungle.”</li>
+</ol>
+<p>The model combines the reference-image representation with the modification text. Instead of requiring a matching target image, SCOT trains that composed representation to align with the modified caption in a frozen vision-language embedding space. It is also pushed away from the original caption and unrelated examples, so the requested edit has to matter.</p>
+<p><img src="/publication/scotwacv/images/scot-method.png" alt="SCOT&rsquo;s annotation-free pretraining pipeline and zero-shot retrieval."></p>
+<p><em>Figure 2. During training, the language model supplies an edit and a rewritten caption; during retrieval, SCOT combines a user’s image and edit to search an image gallery. Adapted from the paper.</em></p>
+<p>This turns large captioned-image collections into supervision for compositional retrieval. We pretrained SCOT with roughly 290,000 image-caption pairs from COCO, Flickr30K, and the Amazon Berkeley Objects dataset, without using CIR triplets.</p>
+<h2 id="what-does-the-generated-supervision-look-like">What does the generated supervision look like?</h2>
+<p>The generated edits are concrete and image-grounded. They change an object, color, or scene attribute while preserving the rest of the description. That gives the composition network varied examples of the kind of transformation a user may request at search time.</p>
+<p><img src="/publication/scotwacv/images/scot-llm-triplets.png" alt="Examples of LLM-generated modifications and rewritten captions used by SCOT."></p>
+<p><em>Figure 3. Examples of automatically generated modification text and modified captions. Green text is added or substituted; red text is removed. Adapted from the paper.</em></p>
+<h2 id="what-did-we-find">What did we find?</h2>
+<p>On FashionIQ and CIRR, two standard compositional-retrieval benchmarks, SCOT surpassed prior zero-shot methods and was competitive with many systems trained on fully annotated CIR data. The experiments also showed why the text-based target matters: using the modified caption as supervision outperformed using a retrieved image as a proxy target, while avoiding errors caused by imperfect image retrieval during training.</p>
+<h2 id="why-it-matters">Why it matters</h2>
+<p>SCOT shows that a model can learn to make image search responsive to natural-language edits without collecting a new triplet dataset for every domain. By pairing existing captioned images with language-generated counterfactual descriptions, the method creates a practical path toward open-world, zero-shot compositional retrieval.</p>
+<p>The full paper, code, and implementation details are available through the links above.</p>
+</div>
 
     
 
