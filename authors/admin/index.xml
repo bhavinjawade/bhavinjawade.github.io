@@ -117,8 +117,8 @@
       
       <guid>https://bhavinjawade.github.io/author/admin/</guid>
       <description>I am a Senior Research Scientist at Netflix, working on multimodal LLMs, post-training, and evaluation for translation, dubbing, and subtitling.
-I develop reward models and human-calibrated evaluation systems to improve model quality. My work connects multimodal research with production systems that help bring stories to audiences across languages.
-Selected Research Google Scholar CV Contact  I earned my Ph.D. in Computer Science at the University at Buffalo, advised by Dr. Venu Govindaraju in the Center for Unified Biometrics and Sensors (CUBS) Lab.</description>
+I develop reward models, synthetic data training pipelines, verifiable rewards, and novel post-training strategies to improve model quality. My work connects multimodal research with production systems that help bring stories to audiences across languages.
+Selected Research Google Scholar CV Contact  I earned my Ph.D. in Computer Science at the University at Buffalo, advised by Dr.</description>
     </item>
     
   </channel>
