@@ -983,8 +983,8 @@
 <li>it produces the <strong>modified caption</strong>, such as “a woman and man riding two motorbikes in the jungle.”</li>
 </ol>
 <p>The model combines the reference-image representation with the modification text. Instead of requiring a matching target image, SCOT trains that composed representation to align with the modified caption in a frozen vision-language embedding space. It is also pushed away from the original caption and unrelated examples, so the requested edit has to matter.</p>
-<p><img src="/publication/scotwacv/images/scot-method.png" alt="SCOT&rsquo;s annotation-free pretraining pipeline and zero-shot retrieval."></p>
-<p><em>Figure 2. During training, the language model supplies an edit and a rewritten caption; during retrieval, SCOT combines a user’s image and edit to search an image gallery. Adapted from the paper.</em></p>
+<p><img src="/publication/scotwacv/images/scot-method-flow.gif" alt="Animated step-by-step flow of SCOT&rsquo;s annotation-free pretraining pipeline and zero-shot retrieval."></p>
+<p><em>Figure 2. Animated step-by-step flow of SCOT. The original training diagram is revealed from the input image and caption through the composition loss, then the inference diagram is revealed through gallery retrieval. The white paper canvas has been made transparent; all diagram content is from the paper.</em></p>
 <p>This turns large captioned-image collections into supervision for compositional retrieval. We pretrained SCOT with roughly 290,000 image-caption pairs from COCO, Flickr30K, and the Amazon Berkeley Objects dataset, without using CIR triplets.</p>
 <h2 id="what-does-the-generated-supervision-look-like">What does the generated supervision look like?</h2>
 <p>The generated edits are concrete and image-grounded. They change an object, color, or scene attribute while preserving the rest of the description. That gives the composition network varied examples of the kind of transformation a user may request at search time.</p>
